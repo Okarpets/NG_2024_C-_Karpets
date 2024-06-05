@@ -36,7 +36,7 @@ namespace Program
             BankSystem bank = new BankSystem();
             Console.WriteLine("Online banking offers you it is services!");
             Console.WriteLine("Please, enter a command: ");
-            Admin admin = new Admin(0, "ADMIN");
+            Admin admin = new Admin(0, "ADMIN", "ADMIN");
             string command = Convert.ToString(Console.ReadLine());
             switch (command)
             {

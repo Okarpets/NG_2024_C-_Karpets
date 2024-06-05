@@ -1,8 +1,8 @@
 ﻿namespace Lection_1
 {
-    public class Admin
+    public class Admin : Person
     {
-        public Admin(decimal adminID, string role) 
+        public Admin(decimal adminID, string name, string role) : base(adminID, name, adminID)
         {
             this.role = role;
             this.adminID = adminID; 
