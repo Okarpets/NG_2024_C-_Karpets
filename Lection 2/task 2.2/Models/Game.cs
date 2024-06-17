@@ -14,37 +14,35 @@ public class Game
     private string category;
     private decimal price;
     private IEnumerable<Genre> genres;
-    public Game(decimal id, string name, string category, decimal price, IEnumerable<Genre> genres)
-    {
-        this.id = id;
-        this.name = name;
-        this.category = category;
-        this.price = price;
-        this.genres = genres;
-    }
 
     public decimal Id
     {
         get => id;
+        set => id = value;
     }
 
     public string Name
     {
         get => name;
+        set => name = value;
     }
 
     public string Category
     {
         get => category;
+        set => category = value;
+
     }
 
     public decimal Price
     {
         get => price;
+        set => price = value;
     }
 
     public IEnumerable<Genre> Genres
     {
         get => genres;
+        set => genres = value;
     }
 }

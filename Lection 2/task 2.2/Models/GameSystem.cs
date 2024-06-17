@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,10 +16,17 @@ public class GameSystem
         return games.Where(x => x.Id == orderedId).FirstOrDefault();
     }
 
-    public IEnumerable<Game> GetListByPriceRange(List<Game> games, decimal orderPriceMin, decimal orderPriceMax) 
+    public Dictionary<string, decimal> GetListByPriceRange(List<Game> games, decimal orderPriceMin, decimal orderPriceMax) 
     {
-        var result = games.Where(x => x.Price <= orderPriceMax && x.Price >= orderPriceMin).OrderBy(x => x);
-        return result;
+        Dictionary<string, decimal> gameAndPrice = new Dictionary<string, decimal>();
+        foreach (var game in games)
+        {
+            if (game.Price >= orderPriceMin && game.Price <= orderPriceMax)
+            {
+                gameAndPrice.Add(game.Name, game.Price);
+            }
+        }
+        return gameAndPrice;
     }
     public IEnumerable<Genre> GetListOfGenresByGame(List<Game> games, string gameName)
     { 
@@ -27,40 +36,40 @@ public class GameSystem
         }
         return null;
     }
-    public List<Genre> GetUniqueCategoriesFromGameList(List<Game> games) 
+    public List<string> GetUniqueCategoriesFromGameList(List<Game> games) 
     { 
-        List<Genre> result = new List<Genre>();
-        foreach (Game game in games)
-        {
-             var ganeresInGame = from g in games select g.Genres;
-             foreach (Genre ganre in ganeresInGame)
+        List<string> result = new List<string>();
+             var genresInGame = from g in games select g.Genres;
+        foreach (List<Genre> allGanres in genresInGame)
              {
-                result.Add(ganre);
-             }
-        }
-        result.Distinct();
-        return result;
-    }
-    public List<Game> GetFilterGamesByCategoryAndGenres(List<Game> games, List<string> genres)
-    {
-        List<Game> result = new List<Game>();
-        foreach (Game game in games) 
-        { 
-            foreach (string genre in genres)
-            {
-                if (Convert.ToString(game.Genres.Select(x => x.Name)) == genre)
+                foreach (Genre ganre in allGanres)
                 {
-                    result.Add(game);
+                    result.Add(ganre.Name);
                 }
             }
-        }
-        result.Distinct();
-        return result;
+        return result
+            .GroupBy(s => s)         
+            .Where(g => g.Count() == 1)
+            .Select(g => g.Key)        
+            .ToList();
     }
 
-    public void Exit()
+    //
+
+
+    public List<string> GetFilterGamesByCategoryAndGenres(List<Game> games, List<string> genres)
     {
-        Environment.Exit(1);
+        List<string> result = new List<string>();
+        var allGames = from g in games select g.Name;
+        foreach (Game game in games)
+        {
+            var hasIntersection = !genres.Except(game.Genres.Select(x => x.Name)).Any();
+            if (hasIntersection == true)
+            {
+                result.Add(game.Name);
+            }
+        }
+        return result;
     }
 
     public string Commands()
