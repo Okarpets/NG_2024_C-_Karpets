@@ -43,9 +43,12 @@ internal class Program
                         Console.WriteLine("Game with this price range doesn't exist");
                         break;
                     }
+                    byte indexForGLBP = 1;
                     foreach (var game in gamesByPrice)
                     {
+                        if (indexForGLBP == 1 || indexForGLBP % 5 == 0) Console.WriteLine($"PAGE N{indexForGLBP}");
                         Console.WriteLine($"Game name: {game.Key}\nPrice: {game.Value}");
+                        indexForGLBP++;
                     }
                     break;
                 case "GLBG":
@@ -92,9 +95,12 @@ internal class Program
                         break;
                     }
                     Console.WriteLine("\tGAMES");
+                    byte indexByGG = 1;
                     foreach (string game in games)
                     {
+                        if (indexByGG == 1 || indexByGG % 5 == 0) Console.WriteLine($"PAGE {indexByGG}");
                         Console.WriteLine($"{game}");
+                        indexByGG++;
                     }
                     break;
                 default:
