@@ -9,40 +9,9 @@ namespace Lection_2_task_2._2.Models;
 
 public class Game
 {
-    private decimal id;
-    private string name;
-    private string category;
-    private decimal price;
-    private IEnumerable<Genre> genres;
-
-    public decimal Id
-    {
-        get => id;
-        set => id = value;
-    }
-
-    public string Name
-    {
-        get => name;
-        set => name = value;
-    }
-
-    public string Category
-    {
-        get => category;
-        set => category = value;
-
-    }
-
-    public decimal Price
-    {
-        get => price;
-        set => price = value;
-    }
-
-    public IEnumerable<Genre> Genres
-    {
-        get => genres;
-        set => genres = value;
-    }
+    public decimal Id { get; set; }
+    public string Name { get; set; }
+    public string Category { get; set; }
+    public decimal Price { get; set; }
+    public IEnumerable<Genre> Genres { get; set; }
 }

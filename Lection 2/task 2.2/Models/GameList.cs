@@ -10,7 +10,7 @@ namespace Lection_2_task_2._2.Models;
 
 static public class GameList
 {
-    static public List<string> allGenres = new List<string>()
+    static public List<string> AllGenres = new List<string>()
     {
         "Indie",
         "Action",
@@ -20,7 +20,7 @@ static public class GameList
         "Souls-like"
     };
 
-    static public List<Game> listOFGames = new List<Game>()
+    static public List<Game> ListOfGames = new List<Game>()
     {
         new Game()
         {

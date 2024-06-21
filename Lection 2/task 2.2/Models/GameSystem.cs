@@ -11,76 +11,69 @@ namespace Lection_2_task_2._2.Models;
 
 public class GameSystem
 {
-    public Game GetById(List<Game> games, decimal orderedId) 
-    { 
-        return games.Where(x => x.Id == orderedId).FirstOrDefault();
+    public Game GetById(List<Game> Games, decimal OrderedId) 
+    {
+        return Games.FirstOrDefault(x => x.Id == OrderedId);
     }
 
-    public Dictionary<string, decimal> GetListByPriceRange(List<Game> games, decimal orderPriceMin, decimal orderPriceMax) 
+    public Dictionary<string, decimal> GetListByPriceRange(List<Game> Games, decimal OrderPriceMin, decimal OrderPriceMax) 
     {
-        Dictionary<string, decimal> gameAndPrice = new Dictionary<string, decimal>();
-        foreach (var game in games)
+        Dictionary<string, decimal> GameAndPrice = new Dictionary<string, decimal>();
+        foreach (var Game in Games)
         {
-            if (game.Price >= orderPriceMin && game.Price <= orderPriceMax)
+            if (Game.Price >= OrderPriceMin && Game.Price <= OrderPriceMax)
             {
-                gameAndPrice.Add(game.Name, game.Price);
+                GameAndPrice.Add(Game.Name, Game.Price);
             }
         }
-        return gameAndPrice;
+        return GameAndPrice;
     }
-    public IEnumerable<Genre> GetListOfGenresByGame(List<Game> games, string gameName)
+    public IEnumerable<Genre> GetListOfGenresByGame(List<Game> Games, string GameName)
     { 
-        if (games.Contains(games.FirstOrDefault(x => x.Name == gameName)))
+        if (Games.Any(x => x.Name == GameName))
         {
-            return games.First(x => x.Name == gameName).Genres;
+            return Games.First(x => x.Name == GameName).Genres;
         }
         return null;
     }
-    public List<string> GetUniqueCategoriesFromGameList(List<Game> games) 
+    public List<string> GetUniqueCategoriesFromGameList(List<Game> Games) 
     { 
-        List<string> result = new List<string>();
-             var genresInGame = from g in games select g.Genres;
-        foreach (List<Genre> allGanres in genresInGame)
+        List<string> Result = new List<string>();
+             var GenresInGame = from g in Games select g.Genres;
+        foreach (List<Genre> AllGanres in GenresInGame)
              {
-                foreach (Genre ganre in allGanres)
+                foreach (Genre Ganre in AllGanres)
                 {
-                    result.Add(ganre.Name);
+                    Result.Add(Ganre.Name);
                 }
             }
-        return result
-            .GroupBy(s => s)         
-            .Where(g => g.Count() == 1)
-            .Select(g => g.Key)        
-            .ToList();
+        return Result.GroupBy(s => s).Where(g => g.Count() == 1).Select(g => g.Key).ToList();
     }
 
-    //
-
-
-    public List<string> GetFilterGamesByCategoryAndGenres(List<Game> games, List<string> genres)
+    public List<string> GetFilterGamesByCategoryAndGenres(List<Game> Games, List<string> Genres)
     {
-        List<string> result = new List<string>();
-        var allGames = from g in games select g.Name;
-        foreach (Game game in games)
+        List<string> Result = new List<string>();
+        var AllGames = from g in Games select g.Name;
+        foreach (Game game in Games)
         {
-            var hasIntersection = !genres.Except(game.Genres.Select(x => x.Name)).Any();
-            if (hasIntersection == true)
+            var HasIntersection = !Genres.Except(game.Genres.Select(x => x.Name)).Any();
+            if (HasIntersection == true)
             {
-                result.Add(game.Name);
+                Result.Add(game.Name);
             }
         }
-        return result;
+        return Result;
     }
 
     public string Commands()
     {
-            string command =
+            string Command =
             "* Q - exit\n" +
             "* GBI - Get a game by id\n" +
             "* GLBP - Get list of games by price range\n" +
             "* GLBG - Get list of genres by game\n" +
             "* GUC - Get unique categories from game list\n" +
             "* GG - Get filter games by genres\n";
-        return command;
+        return Command;
     }
 }
