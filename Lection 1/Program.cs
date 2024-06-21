@@ -10,35 +10,18 @@ namespace Program
 {
     internal class Program
     {
-        static private decimal personalIdCounter = 1;
-        static private decimal accountNumber = 1;
-        static private decimal globalTransactionID = 1;
-        static public decimal PersonalIdCounter
-        {
-            get => personalIdCounter;
-            set => personalIdCounter = value;
-        }
-
-        static public decimal AccountNumber
-        {
-            get => accountNumber;
-            set => accountNumber = value;
-        }
-
-        static public decimal GlobalTransactionID
-        {
-            get => globalTransactionID;
-            set => globalTransactionID = value;
-        }
+        static public decimal PersonalIdCounter = 1;
+        static public decimal AccountNumber = 1;
+        static public decimal GlobalTransactionID = 1;
 
         static public void Main(string[] args)
         {
-            BankSystem bank = new BankSystem();
+            BankSystem Bank = new BankSystem();
             Console.WriteLine("Online banking offers you it is services!");
             Console.WriteLine("Please, enter a command: ");
-            Admin admin = new Admin(0, "ADMIN", "ADMIN");
-            string command = Convert.ToString(Console.ReadLine());
-            switch (command)
+            Admin Admin = new Admin(0, "ADMIN", "ADMIN");
+            string Command = Convert.ToString(Console.ReadLine());
+            switch (Command)
             {
                 case "-help":
                     Commands();
@@ -50,14 +33,14 @@ namespace Program
 
                 case "-create_person":
                     Console.WriteLine("Please enter your name: ");
-                    string createName = Convert.ToString(Console.ReadLine());
+                    string CreateName = Convert.ToString(Console.ReadLine());
                     Console.WriteLine("Please enter your address: ");
-                    string createAddress = Convert.ToString(Console.ReadLine());
-                    if (createName != null)
+                    string CreateAddress = Convert.ToString(Console.ReadLine());
+                    if (CreateName != null)
                     {
-                        Person person = new Person(PersonalIdCounter, createName, AccountNumber);
-                        person.Address = createAddress;
-                        admin.add_client(bank, person);
+                        Client Person = new Client(PersonalIdCounter, CreateName, AccountNumber);
+                        Person.Address = CreateAddress;
+                        Admin.AddClient(Bank, Person);
                         PersonalIdCounter++;
                         AccountNumber++;
                     }
@@ -70,11 +53,11 @@ namespace Program
                 case "-get_balance":
                     Console.WriteLine("Please enter your name: ");
                     string BalanceAccount = Convert.ToString(Console.ReadLine());
-                    foreach (Person client in bank.Clients)
+                    foreach (Client Client in Bank.Clients)
                     {
-                        if (client.Name == BalanceAccount)
+                        if (Client.Name == BalanceAccount)
                         {
-                            Console.WriteLine(client.get_balance());
+                            Console.WriteLine(Client.GetBalance());
                             break;
                         }
                     }
@@ -82,36 +65,36 @@ namespace Program
                     break;
 
                 case "-transaction":
-                    int checker = 0;
-                    Person senderAccount = null;
-                    Person recipientAccount = null;
+                    int Checker = 0;
+                    Client SenderAccount = null;
+                    Client RecipientAccount = null;
                     Console.WriteLine("Please enter your name: ");
-                    string sender = Convert.ToString(Console.ReadLine());
+                    string Sender = Convert.ToString(Console.ReadLine());
                     Console.WriteLine("Please enter recipient name: ");
-                    string recipient = Convert.ToString(Console.ReadLine());
-                    foreach (Person client in bank.Clients)
+                    string Recipient = Convert.ToString(Console.ReadLine());
+                    foreach (Client Client in Bank.Clients)
                     {
-                        if (client.Name == sender)
+                        if (Client.Name == Sender)
                         {
-                            checker++;
-                            senderAccount = client;
+                            Checker++;
+                            SenderAccount = Client;
                         }
-                        if (client.Name == recipient)
+                        if (Client.Name == Recipient)
                         {
-                            checker++;
-                            recipientAccount = client;
+                            Checker++;
+                            RecipientAccount = Client;
                         }
                     }
-                    if (checker == 2)
+                    if (Checker == 2)
                     {
-                        Transaction transaction = new Transaction();
+                        Transaction Transaction = new Transaction();
                         Console.WriteLine("Please enter the amount for the transaction: ");
-                        decimal amountForTransaction = Convert.ToDecimal(Console.ReadLine());
-                        transaction.record_transaction(amountForTransaction, GlobalTransactionID);
-                        bank.add_transaction(transaction);
+                        decimal AmountForTransaction = Convert.ToDecimal(Console.ReadLine());
+                        Transaction.RecordTransaction(AmountForTransaction, GlobalTransactionID);
+                        Bank.AddTransaction(Transaction);
                         GlobalTransactionID++;
-                        recipientAccount.deposit(amountForTransaction);
-                        senderAccount.deposit(senderAccount.get_balance() - amountForTransaction);
+                        RecipientAccount.Deposit(AmountForTransaction);
+                        SenderAccount.Deposit(SenderAccount.GetBalance() - AmountForTransaction);
                         Console.WriteLine("The transaction was successful");
                         break;
                     }
@@ -123,14 +106,14 @@ namespace Program
 
                 case "-deposite":
                     Console.WriteLine("Please enter your name: ");
-                    string createNameForDeposit = Convert.ToString(Console.ReadLine());
+                    string CreateNameForDeposit = Convert.ToString(Console.ReadLine());
                     Console.WriteLine("Please enter the amount for the deposit: ");
-                    decimal amountForDeposite = Convert.ToDecimal(Console.ReadLine());
-                    foreach (Person client in bank.Clients)
+                    decimal AmountForDeposite = Convert.ToDecimal(Console.ReadLine());
+                    foreach (Client Client in Bank.Clients)
                     {
-                        if (client.Name == createNameForDeposit)
+                        if (Client.Name == CreateNameForDeposit)
                         {
-                            client.deposit(amountForDeposite);
+                            Client.Deposit(AmountForDeposite);
                             Console.WriteLine("Success! Your deposit has been updated");
                             break;
                         }
@@ -140,13 +123,13 @@ namespace Program
 
                 case "-generate_report":
                     Console.WriteLine("Please enter the transaction id: ");
-                    decimal transactionID = Convert.ToDecimal(Console.ReadLine());
-                    var transactForReport = bank.view_transactions();
-                    foreach (Transaction transaction in transactForReport)
+                    decimal TransactionID = Convert.ToDecimal(Console.ReadLine());
+                    var TransactForReport = Bank.ViewTransactions();
+                    foreach (Transaction Transaction in TransactForReport)
                     {
-                        if (transaction.get_transaction_details().id == transactionID)
+                        if (Transaction.GetTransactionDetails().Id == TransactionID)
                         {
-                            Console.WriteLine(admin.generate_report(bank, transaction));
+                            Console.WriteLine(Admin.GenerateReport(Bank, Transaction));
                             break;
                         }
                     }
@@ -155,8 +138,8 @@ namespace Program
 
 
                 case "-view_transactions":
-                    var allTransact = bank.view_transactions();
-                    foreach (Transaction transaction in allTransact)
+                    var AllTransact = Bank.ViewTransactions();
+                    foreach (Transaction Transaction in AllTransact)
                     {
                         Console.WriteLine();
                     }
@@ -164,13 +147,13 @@ namespace Program
 
                 case "-remove_client":
                     Console.WriteLine("Enter username to delete from system: ");
-                    string deleteUser = Convert.ToString(Console.ReadLine());
-                    foreach (Person client in bank.Clients)
+                    string DeleteUser = Convert.ToString(Console.ReadLine());
+                    foreach (Client Client in Bank.Clients)
                     {
-                        if (client.Name == deleteUser)
+                        if (Client.Name == DeleteUser)
                         {
-                            Console.WriteLine("User with entered name finded");
-                            admin.remove_client(bank, client);
+                            Console.WriteLine("User with entered name found");
+                            Admin.RemoveClient(Bank, Client);
                             break;
                         }
                     }

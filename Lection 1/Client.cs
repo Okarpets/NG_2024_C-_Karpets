@@ -6,38 +6,29 @@ using System.Threading.Tasks;
 
 namespace Lection_1
 {
-    public class Client
+    public class Client : Person
     {
-        public Client(decimal clientID, string name, decimal accountNumber) 
+        public decimal ClientId;
+        public string Name { get; }
+        public decimal AccountNumber;
+        public Balance Balance {  get; }
+        public Client(decimal ClientId, string Name, decimal AccountNumber) : base(ClientId, Name, AccountNumber)
         {
-            this.clientID = clientID;
-            this.name = name;
-            this.accountNumber = accountNumber;
-            this.balance = new Balance(accountNumber, clientID);
+            this.ClientId = ClientId;
+            this.Name = Name;
+            this.AccountNumber = AccountNumber;
+            this.Balance = new Balance(AccountNumber, ClientId);
         }
 
-        private decimal clientID;
-        private string name;
-        private decimal accountNumber;
-        private Balance balance;
-
-        public string Name
+        public void Deposit(decimal Amount)
         {
-            get => name;
-        }
-        public Balance Balance
-        { 
-            get =>  balance;
-        }
-        public void deposit(decimal amount)
-        {
-            decimal oldBalance = balance.get_balance();
-            balance.update_balance(oldBalance += amount);
+            decimal OldBalance = Balance.GetBalance();
+            Balance.UpdateBalance(OldBalance += Amount);
         }
 
-        public decimal get_balance()
+        public decimal GetBalance()
         {
-            return balance.get_balance();
+            return Balance.GetBalance();
         }
     }
 }

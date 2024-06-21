@@ -9,30 +9,28 @@ namespace Lection_1
 {
     public class Transaction
     {
+        private decimal Amount;
+        private decimal Id;
+        private string TimeInfo;
         public Transaction()
         {
             GetTime();
         }
 
-        private decimal amount;
-        private decimal id;
-        private string timeinfo;
-
         private void GetTime()
         {
-            DateTime time = DateTime.Now;
-            timeinfo = time.ToString("dd/MM/yyyy");
+            TimeInfo = DateTime.Now.ToString("dd/MM/yyyy");
         }
 
-        public void record_transaction(decimal amount, decimal id) 
+        public void RecordTransaction(decimal Amount, decimal Id) 
         {
-            this.id = id;
-            this.amount = amount;
+            Id = Id;
+            Amount = Amount;
         }
 
-        public (decimal amount, decimal id, string timeinfo) get_transaction_details()
+        public (decimal Amount, decimal Id, string TimeInfo) GetTransactionDetails()
         {
-            return (amount : amount, id : id, timeinfo : timeinfo);
+            return (Amount: Amount, Id: Id, TimeInfo: TimeInfo);
         }
     }
 }

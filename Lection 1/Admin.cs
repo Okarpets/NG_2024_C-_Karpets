@@ -2,34 +2,34 @@
 {
     public class Admin : Person
     {
-        public Admin(decimal adminID, string name, string role) : base(adminID, name, adminID)
+        private decimal AdminId;
+        private string Role;
+        public Admin(decimal AdminId, string Name, string Role) : base(AdminId, Name, AdminId)
         {
-            this.role = role;
-            this.adminID = adminID; 
-        }
-        private decimal adminID;
-        private string role;
-
-        public void add_client(BankSystem responsible, Client client)
-        {
-            responsible.add_client(client);
+            this.Role = Role;
+            this.AdminId = AdminId; 
         }
 
-        public void remove_client(BankSystem responsible, Client client)
+        public void AddClient(BankSystem Responsible, Person Client)
         {
-            responsible.remove_client(client);
+            Responsible.AddClient(Client);
         }
 
-        public List<Transaction> view_transactions(BankSystem responsible)
+        public void RemoveClient(BankSystem Responsible, Person Client)
         {
-            return responsible.view_transactions();
+            Responsible.RemoveClient(Client);
         }
 
-        public string generate_report(BankSystem responsible, Transaction transaction)
+        public List<Transaction> ViewTransactions(BankSystem Responsible)
         {
-            var info = transaction.get_transaction_details();
-            string report = $"\t\tREPORT\nTransaction info:\nTranscation ID: {info.id}\nCreate time: { info.timeinfo }\nAmount: { info.amount }";
-            return report;
+            return Responsible.ViewTransactions();
+        }
+
+        public string GenerateReport(BankSystem Responsible, Transaction Transaction)
+        {
+            var Info = Transaction.GetTransactionDetails();
+            string Report = $"\t\tREPORT\nTransaction info:\nTranscation ID: {Info.Id }\nCreate time: {Info.TimeInfo }\nAmount: {Info.Amount }";
+            return Report;
         }
     }
 }

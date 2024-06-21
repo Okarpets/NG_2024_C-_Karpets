@@ -8,23 +8,21 @@ namespace Lection_1
 {
     public class Balance
     {
-        public Balance(decimal balanceID, decimal userID) 
+        private decimal BalanceId;
+        private decimal UserId;
+        private decimal Amount;
+        public Balance(decimal BalanceId, decimal UserId) 
         { 
-            this.balanceID = balanceID;
-            this.userID = userID;
+            this.BalanceId = BalanceId;
+            this.UserId = UserId;
         }
-        private decimal balanceID;
-        private decimal userID;
-        private decimal amount;
-
-       public decimal get_balance()
+       public decimal GetBalance()
        {
-            return amount;
+            return Amount;
        }
-
-        public void update_balance(decimal amount)
+        public void UpdateBalance(decimal Amount)
         {
-            this.amount = amount;
+            this.Amount = Amount;
         }
     }
 }

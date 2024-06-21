@@ -6,19 +6,18 @@ using System.Threading.Tasks;
 
 namespace Lection_1
 {
-    public class Person : Client
+    public class Person
     {
-        public Person(decimal personId, string name, decimal accountNumber) : base(personId, name, accountNumber)
+        public decimal PersonId;
+        public string? Address
         {
-            this.personID = personId;
+            get;
+            set;
         }
-        private decimal personID;
-        private string? address;
-
-        public string Address
+        public Person(decimal PersonId, string Name, decimal AccountNumber)
         {
-            get => "Person dosen't have address" ?? address;
-            set => address = value;
+            this.PersonId = PersonId;
         }
+        
     }
 }

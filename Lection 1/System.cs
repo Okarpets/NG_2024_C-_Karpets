@@ -4,41 +4,36 @@ namespace Lection_1
 {
     public class BankSystem
     {
+        public List<Person> Clients { get; }
+        public List<Transaction> Transactions;
         public BankSystem()
         {
-            clients = new List<Client>();
-            transaction = new List<Transaction>();
+            Clients = new List<Person>();
+            Transactions = new List<Transaction>();
         }
 
-        private List<Client> clients;
-        private List<Transaction> transaction;
 
-        public List<Client> Clients
+        public void AddClient(Person Client)
         {
-            get => clients;
+            Clients.Add(Client);
         }
-
-        public void add_client(Client client)
+        public List<Transaction> ViewTransactions()
         {
-            clients.Add(client);
-        }
-        public List<Transaction> view_transactions()
-        {
-            return transaction;
+            return Transactions;
         }
 
-        public void add_transaction(Transaction transact)
+        public void AddTransaction(Transaction transact)
         {
-            transaction.Add(transact);
+            Transactions.Add(transact);
         }
-        public void remove_client(Client client)
+        public void RemoveClient(Person Client)
         {
-            clients.Remove(client);
+            Clients.Remove(Client);
         }
 
-        public void remove_transaction(Transaction transact)
+        public void RemoveTransaction(Transaction Transact)
         {
-            transaction.Remove(transact);
+            Transactions.Remove(Transact);
         }
     }
 }
