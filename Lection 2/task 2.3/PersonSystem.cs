@@ -10,66 +10,62 @@ namespace Lection_2
 {
     class PersonSystem
     {
-        private List<Person> personList = new List<Person>();
-        public bool CheckNumber(string phoneNumber)
+        private List<Person> PersonList = new List<Person>();
+        public bool CheckNumber(string PhoneNumber)
         {
-            string pattern = "^\\(?([0-9]{3})\\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$";
-            if (phoneNumber != null) return Regex.IsMatch(phoneNumber, pattern);
+            string Pattern = "^\\(?([0-9]{3})\\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$";
+            if (PhoneNumber != null) return Regex.IsMatch(PhoneNumber, Pattern);
             else return false;
         }
-        public bool CheckName(string name)
+        public bool CheckName(string Name)
         {
-            return personList.Contains(personList.FirstOrDefault(x => x.FullName == name));
+            return PersonList.Any(x => x.FullName == Name);
         }
-        public bool CheckPhone(string phoneNumber)
+        public bool CheckPhone(string UserPhoneNumber)
         {
-            if (CheckNumber(phoneNumber) == true) 
+            if (CheckNumber(UserPhoneNumber) == true) 
             {
-                return personList.Contains(personList.FirstOrDefault(x => x.PhoneNumber == phoneNumber));
+                return PersonList.Any(x => x.PhoneNumber == UserPhoneNumber);
             }
             return false;
         }
-        public void AddToList(Person person)
+        public void AddToList(Person Person)
         {
-            personList.Add(person);
+            PersonList.Add(Person);
             Console.WriteLine("Person has been added to list");
         }
-        public void DeleteFromList(string userPhoneNumber)
+        public void DeleteFromList(string UserPhoneNumber)
         {
-            if (CheckNumber(userPhoneNumber) == true)
-            {
-                personList.Remove(personList.FirstOrDefault(x => x.PhoneNumber == userPhoneNumber));
-                Console.WriteLine("Person has been removed from list");
-            }
+            PersonList.RemoveAll(x => x.PhoneNumber == UserPhoneNumber);
         }
         public void Quit()
         {
             Environment.Exit(0);
         }
 
-        public Person GetByPhone(string userPhoneNumber)
+        public Person GetByPhone(string UserPhoneNumber)
         {
-             return personList.Where(x => x.PhoneNumber == userPhoneNumber).FirstOrDefault();
+             return PersonList.FirstOrDefault(x => x.PhoneNumber == UserPhoneNumber);
         }
         public List<Person> GetAll()
         {
-            List<Person> orderedList = personList.OrderBy(o => o.FullName).ToList();
-            return orderedList;
+            List<Person> OrderedList = PersonList.OrderBy(o => o.FullName).ToList();
+            return OrderedList;
         }
-        public Person GetByName(string userName)
+        public Person GetByName(string UserName)
         {
-            return personList.Where(x => x.FullName == userName).FirstOrDefault();
+            return PersonList.FirstOrDefault(x => x.FullName == UserName);
         }
         public string Commands()
         {
-            string command =
+            string Command =
             "* Q - exit\n" +
             "* A - add\n" +
             "* GP - Get by phone(display all info)\n" +
             "* GN - Get by name(display only names)\n" +
             "* GA - Get all(display ordered by name)\n" +
             "* D - delete by phone\n";
-            return command;
+            return Command;
         }
     }
 }

@@ -14,37 +14,42 @@ namespace Program
     {
         static public void Main(string[] args)
         {
-            PersonSystem system = new PersonSystem(); 
+            PersonSystem System = new PersonSystem(); 
             while (true)
             {
                 Console.WriteLine("Please, enter a command: ");
-                string command = Convert.ToString(Console.ReadLine());
-                switch (command)
+                string Command = Convert.ToString(Console.ReadLine());
+                switch (Command)
                 {
                     case "-help":
-                        Console.WriteLine(system.Commands());
+                        Console.WriteLine(System.Commands());
                         break;
                     case "Q":
-                        system.Quit();
+                        System.Quit();
                         break;
                     case "A":
                         Console.WriteLine("Enter person's name: ");
-                        string personName = Convert.ToString(Console.ReadLine());
+                        string PersonName = Convert.ToString(Console.ReadLine());
                         Console.WriteLine("Enter person's number: ");
-                        string personNumber = Convert.ToString(Console.ReadLine());
-                        if (system.CheckPhone(personNumber) == false && system.CheckNumber(personNumber) == true)
+                        string PersonNumber = Convert.ToString(Console.ReadLine());
+                        if (System.CheckNumber(PersonNumber) == true)
                         {
-                            system.AddToList(new Person(personName, personNumber));
+                            if (System.CheckPhone(PersonNumber) == false)
+                            {
+                                System.AddToList(new Person(PersonName, PersonNumber));
+                                break;
+                            }
+                            Console.WriteLine("This phone number already registrated");
                             break;
                         }
-                        Console.WriteLine("This phone number already registrated");
+                        Console.WriteLine("Please, type a real number");
                         break;
                     case "GP":
                         Console.WriteLine("Enter person's number: ");
-                        string getByNumber = Convert.ToString(Console.ReadLine());
-                        if (system.CheckPhone(getByNumber) == true)
+                        string GetByNumber = Convert.ToString(Console.ReadLine());
+                        if (System.CheckPhone(GetByNumber) == true)
                         {
-                            var GPtimely = system.GetByPhone(getByNumber);
+                            var GPtimely = System.GetByPhone(GetByNumber);
                             Console.WriteLine($"Person info:\nName: {GPtimely.FullName}\nPhone Number: {GPtimely.PhoneNumber}");
                             break;
                         }
@@ -52,31 +57,31 @@ namespace Program
                         break;
                     case "GN":
                         Console.WriteLine("Enter person's name: ");
-                        string getByName = Convert.ToString(Console.ReadLine());
-                        if (system.CheckName(getByName) == true)
+                        string GetByName = Convert.ToString(Console.ReadLine());
+                        if (System.CheckName(GetByName) == true)
                         {
-                            var GNtimely = system.GetByName(getByName);
+                            var GNtimely = System.GetByName(GetByName);
                             Console.WriteLine($"Person info:\nName: {GNtimely.FullName}\nPhone Number: {GNtimely.PhoneNumber}");
                             break;
                         }
                         Console.WriteLine("Account with this name never has been registrated");
                         break;
                     case "GA":
-                        var getAllList = system.GetAll();
-                        int iterator = 1;
-                        foreach (Person person in getAllList)
+                        var GetAllList = System.GetAll();
+                        int Iterator = 1;
+                        foreach (Person Person in GetAllList)
                         {
-                            Console.WriteLine($"Person N{iterator} info:\nName: {person.FullName}\nPhone Number: {person.PhoneNumber}");
-                            iterator++;
+                            Console.WriteLine($"Person N{Iterator} info:\nName: {Person.FullName}\nPhone Number: {Person.PhoneNumber}");
+                            Iterator++;
                         }
                         break;
                     case "D":
                         Console.WriteLine("Enter person's number: ");
-                        string deleteByName = Convert.ToString(Console.ReadLine());
-                        if (system.CheckName(deleteByName) == true)
+                        string DeleteByName = Convert.ToString(Console.ReadLine());
+                        if (System.CheckName(DeleteByName) == true)
                         {
-                            system.DeleteFromList(deleteByName);
-                            Console.WriteLine("Account with this phone number never has been registrated");
+                            System.DeleteFromList(DeleteByName);
+                            Console.WriteLine("Person has been removed from list");
                             break;
                         }
                         Console.WriteLine("Account with this name never has been registrated");

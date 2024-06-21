@@ -9,24 +9,23 @@ namespace Lection_2
 {
     public class Person
     {
+        private string Name;
+        private string Number;
         public Person(string name, string phone)
         {
-            fullName = name;
-            phoneNumber = phone;
+            Name = name;
+            Number = phone;
         }
-
-        private string fullName;
-        private string phoneNumber;
 
         public string PhoneNumber 
         { 
-            set => phoneNumber = value;
-            get => phoneNumber;
+            set => Number = value;
+            get => Number;
         }
         public string FullName 
         { 
-            set => fullName = value;
-            get => fullName;
+            set => Name = value;
+            get => Name;
         }
 
     }
