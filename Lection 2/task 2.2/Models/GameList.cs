@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-namespace Lection_2_task_2._2.Models;
+﻿namespace Lection_2_task_2._2.Models;
 
 static public class GameList
 {

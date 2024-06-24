@@ -1,12 +1,4 @@
 ﻿using Lection_2;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Text.RegularExpressions;
-
 
 namespace Program
 {
@@ -14,7 +6,7 @@ namespace Program
     {
         static public void Main(string[] args)
         {
-            PersonSystem System = new PersonSystem(); 
+            PersonSystem System = new PersonSystem();
             while (true)
             {
                 Console.WriteLine("Please, enter a command: ");
@@ -24,9 +16,11 @@ namespace Program
                     case "-help":
                         Console.WriteLine(System.Commands());
                         break;
+
                     case "Q":
                         System.Quit();
                         break;
+
                     case "A":
                         Console.WriteLine("Enter person's name: ");
                         string PersonName = Convert.ToString(Console.ReadLine());
@@ -44,6 +38,7 @@ namespace Program
                         }
                         Console.WriteLine("Please, type a real number");
                         break;
+
                     case "GP":
                         Console.WriteLine("Enter person's number: ");
                         string GetByNumber = Convert.ToString(Console.ReadLine());
@@ -55,6 +50,7 @@ namespace Program
                         }
                         Console.WriteLine("Account with this phone number never has been registrated");
                         break;
+
                     case "GN":
                         Console.WriteLine("Enter person's name: ");
                         string GetByName = Convert.ToString(Console.ReadLine());
@@ -66,6 +62,7 @@ namespace Program
                         }
                         Console.WriteLine("Account with this name never has been registrated");
                         break;
+
                     case "GA":
                         var GetAllList = System.GetAll();
                         int Iterator = 1;
@@ -75,6 +72,7 @@ namespace Program
                             Iterator++;
                         }
                         break;
+
                     case "D":
                         Console.WriteLine("Enter person's number: ");
                         string DeleteByName = Convert.ToString(Console.ReadLine());
@@ -86,6 +84,7 @@ namespace Program
                         }
                         Console.WriteLine("Account with this name never has been registrated");
                         break;
+
                     default:
                         Console.WriteLine("It is a wrong command, please, use \"-help\"");
                         break;

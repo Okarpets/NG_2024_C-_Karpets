@@ -1,6 +1,4 @@
 ﻿using Lection_2_task_2._2.Models;
-using System.Reflection.Metadata.Ecma335;
-using System.Xml;
 
 namespace Program;
 
@@ -18,21 +16,23 @@ internal class Program
                 case "-help":
                     Console.WriteLine(GameSystem.Commands());
                     break;
+
                 case "GBI":
                     Console.WriteLine("Enter an id of the game:");
                     decimal Id = Convert.ToDecimal(Console.ReadLine());
                     var GameById = GameSystem.GetById(GameList.ListOfGames, Id);
                     if (GameById != null)
-                    { 
-                    Console.WriteLine($"\tSEARCH RESULT\nName: {GameById.Name}\nPrice: {GameById.Price}\nCategory: {GameById.Category}\n\tGENRES");
-                    foreach (Genre Genre in GameById.Genres)
                     {
-                        Console.WriteLine(Genre.Name);
-                    }
-                    break;
+                        Console.WriteLine($"\tSEARCH RESULT\nName: {GameById.Name}\nPrice: {GameById.Price}\nCategory: {GameById.Category}\n\tGENRES");
+                        foreach (Genre Genre in GameById.Genres)
+                        {
+                            Console.WriteLine(Genre.Name);
+                        }
+                        break;
                     }
                     Console.WriteLine("Game with this ID doesn't exist");
                     break;
+
                 case "GLBP":
                     Console.WriteLine("Enter min price of the game:");
                     decimal MinPrice = Convert.ToDecimal(Console.ReadLine());
@@ -47,11 +47,15 @@ internal class Program
                     byte IndexForGLBP = 1;
                     foreach (var Game in GamesByPrice)
                     {
-                        if (IndexForGLBP == 1 || IndexForGLBP % 5 == 0) Console.WriteLine($"PAGE N{IndexForGLBP}");
+                        if (IndexForGLBP == 1 || IndexForGLBP % 5 == 0)
+                        {
+                            Console.WriteLine($"PAGE N{IndexForGLBP}");
+                        }
                         Console.WriteLine($"Game name: {Game.Key}\nPrice: {Game.Value}");
                         IndexForGLBP++;
                     }
                     break;
+
                 case "GLBG":
                     Console.WriteLine("Enter name of the game:");
                     string NameOfGame = Convert.ToString(Console.ReadLine());
@@ -62,6 +66,7 @@ internal class Program
                         Console.WriteLine($"{Genre.Name}");
                     }
                     break;
+
                 case "GUC":
                     var Unique = GameSystem.GetUniqueCategoriesFromGameList(GameList.ListOfGames);
                     if (Unique.Count() == 0)
@@ -75,9 +80,11 @@ internal class Program
                         Console.WriteLine($"{Genre}");
                     }
                     break;
+
                 case "Q":
                     Environment.Exit(1);
                     break;
+
                 case "GG":
                     List<string> GenresToFilter = new List<string>();
                     while (true)
@@ -87,7 +94,10 @@ internal class Program
                         GenresToFilter.Add(GanreToFiltration);
                         Console.WriteLine("Keep entering (Y/ )");
                         char Order = Convert.ToChar(Console.ReadLine());
-                        if (Order == 'Y' || Order == 'y') break;
+                        if (Order == 'Y' || Order == 'y')
+                        {
+                            break;
+                        }
                     }
                     var Games = GameSystem.GetFilterGamesByCategoryAndGenres(GameList.ListOfGames, GenresToFilter);
                     if (Games.Count() == 0)
@@ -99,11 +109,15 @@ internal class Program
                     byte IndexByGG = 1;
                     foreach (string Game in Games)
                     {
-                        if (IndexByGG == 1 || IndexByGG % 5 == 0) Console.WriteLine($"PAGE {IndexByGG}");
+                        if (IndexByGG == 1 || IndexByGG % 5 == 0)
+                        {
+                            Console.WriteLine($"PAGE {IndexByGG}");
+                        }
                         Console.WriteLine($"{Game}");
                         IndexByGG++;
                     }
                     break;
+
                 default:
                     Console.WriteLine("It is a wrong command, please, use \"-help\"");
                     break;
