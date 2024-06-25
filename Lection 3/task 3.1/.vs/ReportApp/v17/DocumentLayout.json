@@ -1,0 +1,388 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\models\\efficiencyreportmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\efficiencyreportmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\models\\efficiencyreportmetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\efficiencyreportmetadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\models\\efficiencyperformancedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\efficiencyperformancedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\models\\efficiencycompensationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\efficiencycompensationdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\models\\efficiencyreportsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\efficiencyreportsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\services\\checkincheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\checkincheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\services\\efficiencyreportgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\efficiencyreportgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\services\\reportdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\reportdataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\services\\templateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\templateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\services\\activityreportgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\activityreportgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\services\\activityreportcongifigurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\activityreportcongifigurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\models\\checkincheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\checkincheckout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\models\\activityreportmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\activityreportmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\models\\activityreportconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\activityreportconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\models\\activityreportsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\activityreportsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\models\\complains.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\complains.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\user\\ng_2024_c-_karpets\\lection 3\\reportapp\\reportapp\\jsonexamples\\activityreportclientgenerated.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\jsonexamples\\activityreportclientgenerated.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EfficiencyReportMetadata.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\EfficiencyReportMetadata.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\EfficiencyReportMetadata.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\EfficiencyReportMetadata.cs",
+              "RelativeToolTip": "ReportApp\\Models\\EfficiencyReportMetadata.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:39:47.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EfficiencyCompensationData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\EfficiencyCompensationData.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\EfficiencyCompensationData.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\EfficiencyCompensationData.cs",
+              "RelativeToolTip": "ReportApp\\Models\\EfficiencyCompensationData.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:39:06.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EfficiencyPerformanceData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\EfficiencyPerformanceData.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\EfficiencyPerformanceData.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\EfficiencyPerformanceData.cs",
+              "RelativeToolTip": "ReportApp\\Models\\EfficiencyPerformanceData.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:38:27.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EfficiencyReportSubject.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\EfficiencyReportSubject.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\EfficiencyReportSubject.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\EfficiencyReportSubject.cs",
+              "RelativeToolTip": "ReportApp\\Models\\EfficiencyReportSubject.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:37:42.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CheckInCheckOutService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\CheckInCheckOutService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\CheckInCheckOutService.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\CheckInCheckOutService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\CheckInCheckOutService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:00:15.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\ClientService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\ClientService.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\ClientService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\ClientService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:13:55.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EfficiencyReportModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\EfficiencyReportModel.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\EfficiencyReportModel.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\EfficiencyReportModel.cs",
+              "RelativeToolTip": "ReportApp\\Models\\EfficiencyReportModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:15:08.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\Person.cs",
+              "RelativeToolTip": "ReportApp\\Models\\Person.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:16:31.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\AdminService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\AdminService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:13:35.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EfficiencyReportGeneratorService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\EfficiencyReportGeneratorService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\EfficiencyReportGeneratorService.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\EfficiencyReportGeneratorService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\EfficiencyReportGeneratorService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:58:52.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReportDataService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\ReportDataService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\ReportDataService.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\ReportDataService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\ReportDataService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:06:59.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\Admin.cs",
+              "RelativeToolTip": "ReportApp\\Models\\Admin.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:13:16.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TemplateService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\TemplateService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\TemplateService.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\TemplateService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\TemplateService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:04:32.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ActivityReportGeneratorService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\ActivityReportGeneratorService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\ActivityReportGeneratorService.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\ActivityReportGeneratorService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\ActivityReportGeneratorService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:58:54.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ActivityReportCongifigurationService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\ActivityReportCongifigurationService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\ActivityReportCongifigurationService.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Services\\ActivityReportCongifigurationService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\ActivityReportCongifigurationService.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T09:59:32.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CheckInCheckOut.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\CheckInCheckOut.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\CheckInCheckOut.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\CheckInCheckOut.cs",
+              "RelativeToolTip": "ReportApp\\Models\\CheckInCheckOut.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:13:15.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\Client.cs",
+              "RelativeToolTip": "ReportApp\\Models\\Client.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:15:04.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ActivityReportModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\ActivityReportModel.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\ActivityReportModel.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\ActivityReportModel.cs",
+              "RelativeToolTip": "ReportApp\\Models\\ActivityReportModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:15:18.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ActivityReportConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\ActivityReportConfiguration.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\ActivityReportConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\ActivityReportConfiguration.cs",
+              "RelativeToolTip": "ReportApp\\Models\\ActivityReportConfiguration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:00:22.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ActivityReportSettings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\ActivityReportSettings.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\ActivityReportSettings.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\ActivityReportSettings.cs",
+              "RelativeToolTip": "ReportApp\\Models\\ActivityReportSettings.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:15:56.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Program.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Program.cs",
+              "RelativeToolTip": "ReportApp\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:30:42.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Complains.cs",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\Complains.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\Complains.cs",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\Models\\Complains.cs",
+              "RelativeToolTip": "ReportApp\\Models\\Complains.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-25T10:15:11.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ActivityReportClientGenerated.json",
+              "DocumentMoniker": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\JsonExamples\\ActivityReportClientGenerated.json",
+              "RelativeDocumentMoniker": "ReportApp\\JsonExamples\\ActivityReportClientGenerated.json",
+              "ToolTip": "C:\\Users\\User\\NG_2024_C-_Karpets\\Lection 3\\ReportApp\\ReportApp\\JsonExamples\\ActivityReportClientGenerated.json",
+              "RelativeToolTip": "ReportApp\\JsonExamples\\ActivityReportClientGenerated.json",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-25T10:00:21.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
