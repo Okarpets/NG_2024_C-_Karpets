@@ -1,6 +1,8 @@
-﻿namespace ReportApp.Models;
+﻿using ReportApp.Interfaces;
 
-public class Person
+namespace ReportApp.Models;
+
+public class Person : IPerson
 {
     public Guid Id { get; set; }
     public string FirstName { get; set; }

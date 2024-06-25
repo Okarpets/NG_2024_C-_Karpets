@@ -1,9 +1,10 @@
-﻿using ReportApp.Models;
+﻿using ReportApp.Interfaces;
+using ReportApp.Models;
 using System.Text.Json;
 
 namespace ReportApp.Services;
 
-public class ActivityReportConfigurationService
+public class ActivityReportConfigurationService : IActivityConfigurationLoader
 {
     public ActivityReportConfiguration LoadFromFile(string path)
     {
@@ -16,7 +17,18 @@ public class ActivityReportConfigurationService
         return test;
     }
 
-    public ActivityReportConfiguration GetConfiguration(string path = @"./ReportConfigurations/Activity.json")
+    public ConfigurationModel LoadConfiguration(string path = @"./ReportConfigurations/Configuration.json")
+    {
+        var jsonContent = File.ReadAllText(path);
+        var options = new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        };
+        var test = JsonSerializer.Deserialize<ConfigurationModel>(jsonContent, options);
+        return test;
+    }
+
+    public ActivityReportConfiguration GetConfiguration(string path)
     {
         var configuration = LoadFromFile(path);
         return configuration;

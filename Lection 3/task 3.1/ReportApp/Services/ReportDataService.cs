@@ -1,10 +1,11 @@
 ﻿using ClosedXML.Excel;
 using ClosedXML.Report;
+using ReportApp.Interfaces;
 using ReportApp.Models;
 
 namespace ReportApp.Services;
 
-public class ReportDataService
+public class ReportDataService : IActivityReportData
 {
     private readonly TemplateService _templateService = new TemplateService();
 

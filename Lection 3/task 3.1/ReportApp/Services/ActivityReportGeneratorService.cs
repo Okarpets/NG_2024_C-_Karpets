@@ -6,10 +6,11 @@ namespace ReportApp.Services;
 public class ActivityReportGeneratorService
 {
     private readonly ActivityReportConfigurationService _activityConfigurationService = new ActivityReportConfigurationService();
+    private readonly ConfigurationModel _configurationModel = new ConfigurationModel();
     private readonly ReportDataService _reportDataService = new ReportDataService();
     private readonly TemplateService _templateService = new TemplateService();
 
-    public ActivityReportModel SerializeReportModel(string path = @"./JsonExamples/ActivityReportClientGenerated.json")
+    public ActivityReportModel SerializeReportModel(string path)
     {
         var jsonContent = File.ReadAllText(path);
         var model = JsonSerializer.Deserialize<ActivityReportModel>(jsonContent);
@@ -41,30 +42,14 @@ public class ActivityReportGeneratorService
     {
         var template = _templateService.GetReportTemplate();
 
-        var client = new Client
-        {
-            FirstName = "John",
-            LastName = "Snow",
-            PreferedName = "THE TRUE KING",
-            City = "Winterfell",
-            Pronouns = "King/Wifey"
-        };
+        var configuration = _activityConfigurationService.LoadConfiguration();
 
-        var admin = new Admin()
-        {
-            FirstName = "Soul",
-            LastName = "Of Cinder",
-            PreferedName = "Keeper of the flame",
-            City = "Kiln Of The First Flame",
-            Pronouns = "So so boss"
-        };
+        var model = SerializeReportModel(configuration.ReportModel);
 
-        var model = SerializeReportModel();
-
-        _reportDataService.FillReportDataFromModel(template, _activityConfigurationService.GetConfiguration(), model);
-        _templateService.FillHeader(template, _activityConfigurationService.GetConfiguration());
+        _reportDataService.FillReportDataFromModel(template, _activityConfigurationService.GetConfiguration(configuration.ConfigurationPath), model);
+        _templateService.FillHeader(template, _activityConfigurationService.GetConfiguration(configuration.ConfigurationPath));
 
         template.Generate();
-        template.SaveAs("../../../Reports/Report.xlsx");
+        template.SaveAs(configuration.Save);
     }
 }

@@ -1,10 +1,11 @@
 ﻿using ClosedXML.Excel;
 using ClosedXML.Report;
+using ReportApp.Interfaces;
 using ReportApp.Models;
 
 namespace ReportApp.Services;
 
-public class TemplateService
+public class TemplateService : IActivityTemplateService, IActivityTemplateDrawing
 {
     private ActivityReportSettings Settings { get; set; }
 
