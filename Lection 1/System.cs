@@ -1,11 +1,9 @@
-﻿using System.IO.Pipes;
-
-namespace Lection_1
+﻿namespace Lection_1
 {
     public class BankSystem
     {
-        public List<Person> Clients { get; }
-        public List<Transaction> Transactions;
+        public List<Person> Clients { get; set; }
+        public List<Transaction> Transactions { get; set; }
         public BankSystem()
         {
             Clients = new List<Person>();
