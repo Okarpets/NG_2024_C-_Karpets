@@ -5,7 +5,7 @@ using ReportApp.Models;
 
 namespace ReportApp.Services;
 
-public class ActivityTemplateService : IActivityTemplateService, IActivityTemplateDrawing
+public class ActivityTemplateService : IActivityTemplateService
 {
     private ActivityReportSettings Settings { get; set; }
 
@@ -69,16 +69,15 @@ public class ActivityTemplateService : IActivityTemplateService, IActivityTempla
         }
     }
 
-    public void DrawBorders(IXLWorksheet worksheet, ActivityReportConfiguration configuration, int actualLastColumn)
+    public void DrawBorders(IXLWorksheet worksheet, ActivityReportConfiguration configuration, int actualLastColumn, int initialLastRow)
     {
-        var rightBorder = worksheet.Range(configuration.ReportTitleRow, actualLastColumn, configuration.LastRow, actualLastColumn);
-
-        rightBorder.Style.Border.RightBorder = XLBorderStyleValues.Thin;
-        rightBorder.Style.Border.RightBorderColor = XLColor.Black;
-
-        var bottomBorder = worksheet.Range(configuration.LastRow, configuration.FirstColumn, configuration.LastRow, actualLastColumn);
-
-        bottomBorder.Style.Border.BottomBorder = XLBorderStyleValues.Thin;
-        bottomBorder.Style.Border.BottomBorderColor = XLColor.Black;
+        for (int row = initialLastRow; row <= configuration.LastRow; row++)
+        {
+            for (int column = configuration.FirstColumn; column <= actualLastColumn; column++)
+            {
+                worksheet.Cell(row, column).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
+                worksheet.Cell(row, column).Style.Border.OutsideBorderColor = XLColor.Black;
+            }
+        }
     }
 }

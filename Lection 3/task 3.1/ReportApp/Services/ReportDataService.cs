@@ -38,7 +38,6 @@ public class ReportDataService : IActivityReportData
             worksheet.Range(configuration.FirstRowForStaticGroup, lastDataColumn + 1, configuration.FirstRowForStaticGroup, configuration.LastColumn)
                 .Delete(XLShiftDeletedCells.ShiftCellsLeft);
 
-
             var titleCell = worksheet.Cell(configuration.ReportTitleRow, firstDataColumn);
             var style = titleCell.Style;
             var title = titleCell.Value.ToString();
@@ -51,10 +50,6 @@ public class ReportDataService : IActivityReportData
             newRange.Value = title;
 
             _templateService.CleanTestData(template, configuration, lastDataColumn);
-            if (configuration.LastColumn != lastDataColumn)
-            {
-                _templateService.DrawBorders(worksheet, configuration, lastDataColumn);
-            }
         }
         else
         {
@@ -63,29 +58,45 @@ public class ReportDataService : IActivityReportData
             KeyValuePairs.Add("Works At", r => r.GeneratedByAdmin.City);
         }
 
+        int initialLastRow = configuration.LastRow;
+
         for (int group = 1; group <= groupAmount; group++)
         {
             for (int row = 0; row < model.Complains.Count; row++)
             {
                 int column = firstDataColumn;
+                int currentRow = firstDataRow + row;
+
                 foreach (var property in KeyValuePairs)
                 {
                     if (property.Key.Equals("Additional Info"))
                     {
-                        worksheet.Cell(row + firstDataRow, column).Value = model.Complains[row].Description;
+                        worksheet.Cell(currentRow, column).Value = model.Complains[row].Description;
                     }
                     else
                     {
-                        worksheet.Cell(row + firstDataRow, column).Value = property.Value(model).ToString();
+                        worksheet.Cell(currentRow, column).Value = property.Value(model).ToString();
                     }
+
+                    if (currentRow % 2 == 0)
+                    {
+                        worksheet.Cell(currentRow, column).Style.Fill.BackgroundColor = XLColor.WhiteSmoke;
+                    }
+                    else
+                    {
+                        worksheet.Cell(currentRow, column).Style.Fill.BackgroundColor = XLColor.White;
+                    }
+
                     column++;
                 }
-                configuration.LastRow++;
+                configuration.LastRow = Math.Max(configuration.LastRow, currentRow);
             }
         }
 
         var workingRange = worksheet.Range(configuration.ReportTitleRow, firstDataColumn, configuration.LastRow, lastDataColumn);
         worksheet.Columns(configuration.FirstColumn, configuration.LastColumn).AdjustToContents();
+
+        _templateService.DrawBorders(worksheet, configuration, lastDataColumn, initialLastRow);
     }
 
     public ActivityReportModel GetReportModel(Person client, Admin? admin = null)
