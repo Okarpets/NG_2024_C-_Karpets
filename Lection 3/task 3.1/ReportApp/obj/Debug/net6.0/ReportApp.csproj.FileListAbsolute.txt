@@ -67,3 +67,4 @@ C:\Users\User\NG_2024_C-_Karpets\Lection 3\task 3.1\ReportApp\obj\Debug\net6.0\R
 C:\Users\User\NG_2024_C-_Karpets\Lection 3\task 3.1\ReportApp\obj\Debug\net6.0\ReportApp.genruntimeconfig.cache
 C:\Users\User\NG_2024_C-_Karpets\Lection 3\task 3.1\ReportApp\obj\Debug\net6.0\ref\ReportApp.dll
 C:\Users\User\NG_2024_C-_Karpets\Lection 3\task 3.1\ReportApp\bin\Debug\net6.0\ReportConfigurations\Configuration.json
+C:\Users\User\NG_2024_C-_Karpets\Lection 3\task 3.1\ReportApp\bin\Debug\net6.0\Templates\ShopReport.xlsx

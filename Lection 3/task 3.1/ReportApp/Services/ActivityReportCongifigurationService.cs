@@ -17,17 +17,6 @@ public class ActivityReportConfigurationService : IActivityConfigurationLoader
         return test;
     }
 
-    public ConfigurationModel LoadConfiguration(string path = @"./ReportConfigurations/Configuration.json")
-    {
-        var jsonContent = File.ReadAllText(path);
-        var options = new JsonSerializerOptions
-        {
-            PropertyNameCaseInsensitive = true
-        };
-        var test = JsonSerializer.Deserialize<ConfigurationModel>(jsonContent, options);
-        return test;
-    }
-
     public ActivityReportConfiguration GetConfiguration(string path)
     {
         var configuration = LoadFromFile(path);

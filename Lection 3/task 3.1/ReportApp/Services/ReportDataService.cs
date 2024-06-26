@@ -7,7 +7,7 @@ namespace ReportApp.Services;
 
 public class ReportDataService : IActivityReportData
 {
-    private readonly TemplateService _templateService = new TemplateService();
+    private readonly ActivityTemplateService _templateService = new ActivityTemplateService();
 
     private Dictionary<string, Func<ActivityReportModel, object>> KeyValuePairs { get; set; } = new Dictionary<string, Func<ActivityReportModel, object>>
     {
@@ -87,7 +87,6 @@ public class ReportDataService : IActivityReportData
         var workingRange = worksheet.Range(configuration.ReportTitleRow, firstDataColumn, configuration.LastRow, lastDataColumn);
         worksheet.Columns(configuration.FirstColumn, configuration.LastColumn).AdjustToContents();
     }
-
 
     public ActivityReportModel GetReportModel(Person client, Admin? admin = null)
     {

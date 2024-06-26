@@ -2,7 +2,7 @@
 
 public class ConfigurationModel
 {
-    public string Save { get; set; }
-    public string ConfigurationPath { get; set; }
+    public string PathToSave { get; set; }
+    public string KindOfConfigurationPath { get; set; }
     public string ReportModel { get; set; }
 }
