@@ -11,11 +11,11 @@ public class ShopReportGeneratorService
     private readonly ReportDataServiceShop _reportDataService = new ReportDataServiceShop();
     private readonly ShopTemplateService _templateService = new ShopTemplateService();
 
-    public ShopReportModel SerializeReportModel(string path)
+    public List<ShopReportModel> SerializeReportModel(string path)
     {
         var jsonContent = File.ReadAllText(path);
-        var model = JsonSerializer.Deserialize<ShopReportModel>(jsonContent);
-        return model;
+        var models = JsonSerializer.Deserialize<List<ShopReportModel>>(jsonContent);
+        return models;
     }
 
     public void GenerateReport()
@@ -24,9 +24,9 @@ public class ShopReportGeneratorService
 
         var configuration = _pathConfigurationService.LoadConfiguration();
 
-        var model = SerializeReportModel(configuration.ReportModel);
+        var models = SerializeReportModel(configuration.ReportModel);
 
-        _reportDataService.FillReportDataFromModel(template, _shopConfigurationService.GetConfiguration(configuration.KindOfConfigurationPath), model);
+        _reportDataService.FillReportDataFromModel(template, _shopConfigurationService.GetConfiguration(configuration.KindOfConfigurationPath), models);
 
         template.Generate();
         template.SaveAs(configuration.PathToSave);

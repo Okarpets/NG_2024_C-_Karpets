@@ -5,7 +5,7 @@ using ReportApp.Models;
 
 namespace ReportApp.Services;
 
-public class ActivityTemplateService : IActivityTemplateService
+public class ActivityTemplateService : IActivityTemplateService, IActivityTemplateDrawing
 {
     private ActivityReportSettings Settings { get; set; }
 

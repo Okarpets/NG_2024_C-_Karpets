@@ -15,7 +15,7 @@ public class ReportDataServiceShop
         { "Items", r => r.Items },
     };
 
-    public void FillReportDataFromModel(XLTemplate template, ShopReportConfiguration configuration, ShopReportModel model)
+    public void FillReportDataFromModel(XLTemplate template, ShopReportConfiguration configuration, List<ShopReportModel> models)
     {
         var worksheet = template.Workbook.Worksheets.First();
         worksheet.SetShowGridLines(false);
@@ -51,40 +51,40 @@ public class ReportDataServiceShop
         }
 
 
-        for (int group = 1; group <= groupAmount; group++)
-        {
-            for (int row = 0; row < model.Items.Count; row++)
-            {
-                int column = firstDataColumn;
-                foreach (var property in KeyValuePairs)
-                {
-                    if (property.Key.Equals("Additional Info"))
-                    {
-                        worksheet.Cell(row + firstDataRow, column).Value = model.Items[row].Name;
-                    }
-                    else
-                    {
-                        worksheet.Cell(row + firstDataRow, column).Value = property.Value(model).ToString();
-                    }
-                    column++;
-                }
-                configuration.LastRow++;
-            }
+        //    for (int group = 1; group <= groupAmount; group++)
+        //    {
+        //        for (int row = 0; row < model.Items.Count; row++)
+        //        {
+        //            int column = firstDataColumn;
+        //            foreach (var property in KeyValuePairs)
+        //            {
+        //                if (property.Key.Equals("Additional Info"))
+        //                {
+        //                    worksheet.Cell(row + firstDataRow, column).Value = model.Items[row].Name;
+        //                }
+        //                else
+        //                {
+        //                    worksheet.Cell(row + firstDataRow, column).Value = property.Value(model).ToString();
+        //                }
+        //                column++;
+        //            }
+        //            configuration.LastRow++;
+        //        }
 
-            var workingRange = worksheet.Range(configuration.ReportTitleRow, firstDataColumn, configuration.LastRow, lastDataColumn);
-            worksheet.Columns(configuration.FirstColumn, configuration.LastColumn).AdjustToContents();
-        }
-    }
+        //        var workingRange = worksheet.Range(configuration.ReportTitleRow, firstDataColumn, configuration.LastRow, lastDataColumn);
+        //        worksheet.Columns(configuration.FirstColumn, configuration.LastColumn).AdjustToContents();
+        //    }
+        //}
 
-    public ShopReportModel GetReportModel()
-    {
-        var reportModel = new ShopReportModel()
-        {
-            PointOfPurchase = null,
-            Seller = null,
-            Items = null
-        };
+        //public ShopReportModel GetReportModel()
+        //{
+        //    var reportModel = new ShopReportModel()
+        //    {
+        //        PointOfPurchase = null,
+        //        Seller = null,
+        //        Items = null
+        //    };
 
-        return reportModel;
+        //    return reportModel;
     }
 }
