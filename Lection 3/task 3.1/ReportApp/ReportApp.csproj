@@ -16,6 +16,7 @@
     <None Remove="JsonExamples\CurrentShopItems2.json" />
     <None Remove="ReportConfigurations\Activity.json" />
 	<None Remove="ReportConfigurations\Shop.json" />
+	<None Remove="Reports\Shop.json" />
     <None Remove="Templates\ActivityReport.xlsx" />
 	 <None Remove="Templates\ShopReport.xlsx" />
   </ItemGroup>
@@ -24,9 +25,6 @@
 	  <Content Include="ReportConfigurations\Shop.json">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </Content>
-    <Content Include="ReportConfigurations\Configuration.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="JsonExamples\ActivityReportAdminGenerated.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -48,6 +46,9 @@
     <Content Include="JsonExamples\ActivityReportClientGenerated.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Request\Request.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Templates\ActivityReport.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -59,6 +60,10 @@
   <ItemGroup>
     <PackageReference Include="ClosedXML" Version="0.102.2" />
     <PackageReference Include="ClosedXML.Report" Version="0.2.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Reports\" />
   </ItemGroup>
 
 </Project>

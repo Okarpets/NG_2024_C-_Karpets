@@ -1,4 +1,5 @@
-﻿using ReportApp.Models;
+﻿using ReportApp.Models.Data;
+using ReportApp.Models.Entity;
 
 namespace ReportApp.Services;
 

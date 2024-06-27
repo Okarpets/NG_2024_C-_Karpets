@@ -66,6 +66,6 @@ C:\Users\User\NG_2024_C-_Karpets\Lection 3\task 3.1\ReportApp\bin\Debug\net6.0\X
 C:\Users\User\NG_2024_C-_Karpets\Lection 3\task 3.1\ReportApp\obj\Debug\net6.0\ReportApp.csproj.Up2Date
 C:\Users\User\NG_2024_C-_Karpets\Lection 3\task 3.1\ReportApp\obj\Debug\net6.0\ReportApp.genruntimeconfig.cache
 C:\Users\User\NG_2024_C-_Karpets\Lection 3\task 3.1\ReportApp\obj\Debug\net6.0\ref\ReportApp.dll
-C:\Users\User\NG_2024_C-_Karpets\Lection 3\task 3.1\ReportApp\bin\Debug\net6.0\ReportConfigurations\Configuration.json
 C:\Users\User\NG_2024_C-_Karpets\Lection 3\task 3.1\ReportApp\bin\Debug\net6.0\Templates\ShopReport.xlsx
 C:\Users\User\NG_2024_C-_Karpets\Lection 3\task 3.1\ReportApp\bin\Debug\net6.0\ReportConfigurations\Shop.json
+C:\Users\User\NG_2024_C-_Karpets\Lection 3\task 3.1\ReportApp\bin\Debug\net6.0\Request\Request.json
