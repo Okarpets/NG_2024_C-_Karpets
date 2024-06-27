@@ -15,11 +15,15 @@
     <None Remove="JsonExamples\CurrentShopItems1.json" />
     <None Remove="JsonExamples\CurrentShopItems2.json" />
     <None Remove="ReportConfigurations\Activity.json" />
+	<None Remove="ReportConfigurations\Shop.json" />
     <None Remove="Templates\ActivityReport.xlsx" />
 	 <None Remove="Templates\ShopReport.xlsx" />
   </ItemGroup>
 
   <ItemGroup>
+	  <Content Include="ReportConfigurations\Shop.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
     <Content Include="ReportConfigurations\Configuration.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

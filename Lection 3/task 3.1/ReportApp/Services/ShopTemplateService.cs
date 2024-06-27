@@ -24,16 +24,27 @@ public class ShopTemplateService
         }
     }
 
-    public void DrawBorders(IXLWorksheet worksheet, ShopReportConfiguration configuration, int actualLastColumn)
+    public void DrawBorders(IXLWorksheet worksheet, ShopReportConfiguration configuration, int actualLastColumn, int initialLastRow)
     {
-        var rightBorder = worksheet.Range(configuration.ReportTitleRow, actualLastColumn, configuration.LastRow, actualLastColumn);
+        for (int row = initialLastRow; row < configuration.LastRow - 1; row++)
+        {
+            for (int column = configuration.FirstColumn; column <= actualLastColumn - 1; column++)
+            {
+                worksheet.Cell(row, column).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
+                worksheet.Cell(row, column).Style.Border.OutsideBorderColor = XLColor.Black;
+            }
+        }
+    }
 
-        rightBorder.Style.Border.RightBorder = XLBorderStyleValues.Thin;
-        rightBorder.Style.Border.RightBorderColor = XLColor.Black;
-
-        var bottomBorder = worksheet.Range(configuration.LastRow, configuration.FirstColumn, configuration.LastRow, actualLastColumn);
-
-        bottomBorder.Style.Border.BottomBorder = XLBorderStyleValues.Thin;
-        bottomBorder.Style.Border.BottomBorderColor = XLColor.Black;
+    public void DrawColor(IXLWorksheet worksheet, int column, int currentRow)
+    {
+        if (currentRow % 2 == 0)
+        {
+            worksheet.Cell(currentRow, column).Style.Fill.BackgroundColor = XLColor.WhiteSmoke;
+        }
+        else
+        {
+            worksheet.Cell(currentRow, column).Style.Fill.BackgroundColor = XLColor.White;
+        }
     }
 }

@@ -1,5 +1,5 @@
 ﻿{
   "PathToSave" : "../../../Reports/Report.xlsx",
-  "KindOfConfigurationPath" : "./ReportConfigurations/Activity.json",
+  "KindOfConfigurationPath" : "./ReportConfigurations/Shop.json",
   "ReportModel" : "./JsonExamples/CurrentShopItems.json"
 }
