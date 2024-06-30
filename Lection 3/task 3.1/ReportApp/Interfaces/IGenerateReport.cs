@@ -1,6 +1,7 @@
-﻿namespace ReportApp.Interfaces;
+﻿using System.Text.Json;
+namespace ReportApp.Interfaces;
 
-public interface IGenerateReport
+public interface IGenerateReportService
 {
-    public void GenerateReport(string pathToFile);
+    public virtual void GenerateReport(string pathToFile) { }
 }

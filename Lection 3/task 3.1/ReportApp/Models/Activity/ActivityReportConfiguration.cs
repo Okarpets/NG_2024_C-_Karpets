@@ -2,7 +2,7 @@
 
 namespace ReportApp.Models.Activity;
 
-public class ActivityReportConfiguration : IReportConfiguration
+public class ActivityReportConfiguration
 {
     public int ReportTitleRow { get; set; }
 

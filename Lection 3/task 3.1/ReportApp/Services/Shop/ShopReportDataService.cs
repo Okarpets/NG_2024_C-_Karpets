@@ -1,13 +1,13 @@
 ﻿using ClosedXML.Excel;
 using ClosedXML.Report;
-using ReportApp.Interfaces.IShop;
 using ReportApp.Models.Shop;
 
 namespace ReportApp.Services.Shop;
 
-public class ShopReportDataService : IShopReportData
+public class ShopReportDataService
 {
     private readonly ShopTemplateService _templateService = new ShopTemplateService();
+
     private Dictionary<string, Func<ShopReportModel, object>> KeyValuePairs { get; set; } = new Dictionary<string, Func<ShopReportModel, object>>
     {
         { "Name", r => r.PointOfPurchase },
@@ -18,7 +18,7 @@ public class ShopReportDataService : IShopReportData
     public void FillReportDataFromModel(XLTemplate template, ShopReportConfiguration configuration, List<ShopReportModel> models)
     {
         var worksheet = template.Workbook.Worksheets.First();
-        worksheet.SetShowGridLines(false);
+        _ = worksheet.SetShowGridLines(false);
 
         var firstDataRow = configuration.DefaultRow;
         var firstDataColumn = configuration.FirstColumn;
@@ -37,7 +37,7 @@ public class ShopReportDataService : IShopReportData
         var title = titleCell.Value.ToString();
 
         var previousRange = worksheet.Range(configuration.ReportTitleRow, firstDataColumn, configuration.ReportTitleRow, configuration.LastColumn).Unmerge();
-        previousRange.Clear();
+        _ = previousRange.Clear();
 
         var newRange = worksheet.Range(configuration.ReportTitleRow, firstDataColumn, configuration.ReportTitleRow, lastDataColumn - 1).Merge();
         newRange.Style = style;
@@ -46,6 +46,7 @@ public class ShopReportDataService : IShopReportData
         _templateService.CleanTestData(template, configuration, lastDataColumn);
 
         int currentRow = firstDataRow;
+        int finishedRow = 0;
 
         foreach (var model in models)
         {
@@ -73,12 +74,14 @@ public class ShopReportDataService : IShopReportData
                     currentRow++;
                     configuration.LastRow++;
                 }
+                finishedRow = currentRow;
             }
 
             var workingRange = worksheet.Range(configuration.ReportTitleRow, firstDataColumn, configuration.LastRow, lastDataColumn);
-            worksheet.Columns(configuration.FirstColumn, configuration.LastColumn).AdjustToContents();
+            _ = worksheet.Columns(configuration.FirstColumn, configuration.LastColumn).AdjustToContents();
         }
 
+        _templateService.FormatStyle(worksheet, configuration, finishedRow);
         _templateService.DrawBorders(worksheet, configuration, lastDataColumn, initialLastRow);
     }
 }

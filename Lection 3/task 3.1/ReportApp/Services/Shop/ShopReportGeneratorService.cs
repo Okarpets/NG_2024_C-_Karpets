@@ -4,7 +4,7 @@ using System.Text.Json;
 
 namespace ReportApp.Services.Shop;
 
-public class ShopReportGeneratorService : IGenerateReport
+public class ShopReportGeneratorService : IGenerateReportService
 {
     private readonly RequestsService _pathConfigurationService = new RequestsService();
     private readonly ShopReportConfigurationService _shopConfigurationService = new ShopReportConfigurationService();

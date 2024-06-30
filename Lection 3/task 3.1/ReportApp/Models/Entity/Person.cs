@@ -2,7 +2,7 @@
 
 namespace ReportApp.Models.Entity;
 
-public class Person : IPerson
+public class Person
 {
     public Guid Id { get; set; }
 

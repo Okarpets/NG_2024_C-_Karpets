@@ -2,7 +2,7 @@
 
 namespace ReportApp.Models.Shop;
 
-public class ShopReportConfiguration : IReportConfiguration
+public class ShopReportConfiguration
 {
     public int ReportTitleRow { get; set; }
 

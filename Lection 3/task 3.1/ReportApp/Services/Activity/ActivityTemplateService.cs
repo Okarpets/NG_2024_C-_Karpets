@@ -1,12 +1,12 @@
 ﻿using ClosedXML.Excel;
 using ClosedXML.Report;
-using ReportApp.Interfaces.IActivity;
+using ReportApp.Interfaces;
 using ReportApp.Models.Activity;
 using ReportApp.Models.Entity;
 
 namespace ReportApp.Services.Activity;
 
-public class ActivityTemplateService : IActivityTemplateService, IActivityTemplateDrawing
+public class ActivityTemplateService : ITemplateService
 {
     private ActivityReportSettings Settings { get; set; }
 
@@ -65,14 +65,14 @@ public class ActivityTemplateService : IActivityTemplateService, IActivityTempla
         {
             for (int column = actualLastColumn; column <= configuration.LastColumn; column++)
             {
-                worksheet.Cell(row, column).Clear();
+                _ = worksheet.Cell(row, column).Clear();
             }
         }
     }
 
     public void DrawBorders(IXLWorksheet worksheet, ActivityReportConfiguration configuration, int actualLastColumn, int initialLastRow)
     {
-        for (int row = initialLastRow; row <= configuration.LastRow; row++)
+        for (int row = 7; row <= configuration.LastRow; row++)
         {
             for (int column = configuration.FirstColumn; column <= actualLastColumn; column++)
             {

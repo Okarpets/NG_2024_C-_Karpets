@@ -4,7 +4,7 @@ using System.Text.Json;
 
 namespace ReportApp.Services.Activity;
 
-public class ActivityReportGeneratorService : IGenerateReport
+public class ActivityReportGeneratorService : IGenerateReportService
 {
     private readonly RequestsService _pathConfigurationService = new RequestsService();
     private readonly ActivityReportConfigurationService _activityConfigurationService = new ActivityReportConfigurationService();

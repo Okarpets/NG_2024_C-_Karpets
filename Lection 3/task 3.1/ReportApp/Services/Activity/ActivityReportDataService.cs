@@ -1,12 +1,11 @@
 ﻿using ClosedXML.Excel;
 using ClosedXML.Report;
-using ReportApp.Interfaces.IActivity;
 using ReportApp.Models.Activity;
 using ReportApp.Models.Entity;
 
 namespace ReportApp.Services.Activity;
 
-public class ActivityReportDataService : IActivityReportData
+public class ActivityReportDataService
 {
     private readonly ActivityTemplateService _templateService = new ActivityTemplateService();
 
@@ -22,7 +21,7 @@ public class ActivityReportDataService : IActivityReportData
     public void FillReportDataFromModel(XLTemplate template, ActivityReportConfiguration configuration, ActivityReportModel model)
     {
         var worksheet = template.Workbook.Worksheets.First();
-        worksheet.SetShowGridLines(false);
+        _ = worksheet.SetShowGridLines(false);
 
         var firstDataRow = configuration.DefaultRow;
         var firstDataColumn = configuration.FirstColumn;
@@ -44,7 +43,7 @@ public class ActivityReportDataService : IActivityReportData
             var title = titleCell.Value.ToString();
 
             var previousRange = worksheet.Range(configuration.ReportTitleRow, firstDataColumn, configuration.ReportTitleRow, configuration.LastColumn).Unmerge();
-            previousRange.Clear();
+            _ = previousRange.Clear();
 
             var newRange = worksheet.Range(configuration.ReportTitleRow, firstDataColumn, configuration.ReportTitleRow, lastDataColumn).Merge();
             newRange.Style = style;
@@ -65,6 +64,7 @@ public class ActivityReportDataService : IActivityReportData
         {
             for (int row = 0; row < model.Complains.Count; row++)
             {
+
                 int column = firstDataColumn;
                 int currentRow = firstDataRow + row;
 
@@ -82,10 +82,12 @@ public class ActivityReportDataService : IActivityReportData
                     if (currentRow % 2 == 0)
                     {
                         worksheet.Cell(currentRow, column).Style.Fill.BackgroundColor = XLColor.WhiteSmoke;
+                        worksheet.Cell(currentRow, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Right;
                     }
                     else
                     {
                         worksheet.Cell(currentRow, column).Style.Fill.BackgroundColor = XLColor.White;
+                        worksheet.Cell(currentRow, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Left;
                     }
 
                     column++;
@@ -95,27 +97,20 @@ public class ActivityReportDataService : IActivityReportData
         }
 
         var workingRange = worksheet.Range(configuration.ReportTitleRow, firstDataColumn, configuration.LastRow, lastDataColumn);
-        worksheet.Columns(configuration.FirstColumn, configuration.LastColumn).AdjustToContents();
+        _ = worksheet.Columns(configuration.FirstColumn, configuration.LastColumn).AdjustToContents();
 
         _templateService.DrawBorders(worksheet, configuration, lastDataColumn, initialLastRow);
     }
 
     public ActivityReportModel GetReportModel(Person client, Admin? admin = null)
     {
-        var today = DateTime.Now;
-        var checkInCheckOut = new CheckInCheckOutService()
-            .CalculateWorkHours(
-                client,
-                new DateTime(today.Year, today.Month, today.Day, 8, 0, 0),
-                DateTime.Now);
-
         var reportModel = new ActivityReportModel()
         {
             GeneratedByAdmin = admin,
             Office = "New York, Wallstreet",
             GeneratedByClient = null,
-            WorkdayStartTime = checkInCheckOut.ClientCheckedIn,
-            WorkdayEndTime = checkInCheckOut.ClientCheckedOut,
+            WorkdayStartTime = DateTime.Now,
+            WorkdayEndTime = DateTime.Now,
             ReportGeneratedFor = client
         };
 
