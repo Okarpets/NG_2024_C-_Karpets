@@ -1,6 +1,4 @@
-﻿using ReportApp.Interfaces;
-
-namespace ReportApp.Models.Entity;
+﻿namespace ReportApp.Models.Entity;
 
 public class Person
 {

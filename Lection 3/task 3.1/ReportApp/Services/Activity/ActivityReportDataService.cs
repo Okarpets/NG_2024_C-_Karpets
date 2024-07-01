@@ -1,5 +1,6 @@
 ﻿using ClosedXML.Excel;
 using ClosedXML.Report;
+using ReportApp.Models;
 using ReportApp.Models.Activity;
 using ReportApp.Models.Entity;
 
@@ -7,7 +8,7 @@ namespace ReportApp.Services.Activity;
 
 public class ActivityReportDataService
 {
-    private readonly ActivityTemplateService _templateService = new ActivityTemplateService();
+    private readonly TemplateManagerService _templateService = new TemplateManagerService();
 
     private Dictionary<string, Func<ActivityReportModel, object>> KeyValuePairs { get; set; } = new Dictionary<string, Func<ActivityReportModel, object>>
     {
@@ -18,7 +19,7 @@ public class ActivityReportDataService
         { "Additional Info", r => r.Complains }
     };
 
-    public void FillReportDataFromModel(XLTemplate template, ActivityReportConfiguration configuration, ActivityReportModel model)
+    public void FillReportDataFromModel(XLTemplate template, ReportConfiguration configuration, ActivityReportModel model)
     {
         var worksheet = template.Workbook.Worksheets.First();
         _ = worksheet.SetShowGridLines(false);
@@ -99,7 +100,7 @@ public class ActivityReportDataService
         var workingRange = worksheet.Range(configuration.ReportTitleRow, firstDataColumn, configuration.LastRow, lastDataColumn);
         _ = worksheet.Columns(configuration.FirstColumn, configuration.LastColumn).AdjustToContents();
 
-        _templateService.DrawBorders(worksheet, configuration, lastDataColumn, initialLastRow);
+        _templateService.DrawBorders(worksheet, configuration, "Activity", lastDataColumn, initialLastRow);
     }
 
     public ActivityReportModel GetReportModel(Person client, Admin? admin = null)
@@ -113,8 +114,6 @@ public class ActivityReportDataService
             WorkdayEndTime = DateTime.Now,
             ReportGeneratedFor = client
         };
-
-        _templateService.FillSettings(reportModel);
 
         return reportModel;
     }

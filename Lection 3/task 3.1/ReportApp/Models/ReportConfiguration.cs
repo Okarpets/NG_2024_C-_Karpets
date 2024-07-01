@@ -1,8 +1,6 @@
-﻿using ReportApp.Interfaces;
+﻿namespace ReportApp.Models;
 
-namespace ReportApp.Models.Activity;
-
-public class ActivityReportConfiguration
+public class ReportConfiguration
 {
     public int ReportTitleRow { get; set; }
 

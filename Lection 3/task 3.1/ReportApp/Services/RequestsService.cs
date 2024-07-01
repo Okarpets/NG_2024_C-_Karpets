@@ -12,7 +12,7 @@ public class RequestsService
         {
             PropertyNameCaseInsensitive = true
         };
-        var test = JsonSerializer.Deserialize<RequestModel>(jsonContent, options);
-        return test;
+        var requestModel = JsonSerializer.Deserialize<RequestModel>(jsonContent, options);
+        return requestModel;
     }
 }

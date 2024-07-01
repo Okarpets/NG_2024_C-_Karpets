@@ -1,12 +1,13 @@
 ﻿using ClosedXML.Excel;
 using ClosedXML.Report;
+using ReportApp.Models;
 using ReportApp.Models.Shop;
 
 namespace ReportApp.Services.Shop;
 
 public class ShopReportDataService
 {
-    private readonly ShopTemplateService _templateService = new ShopTemplateService();
+    private readonly TemplateManagerService _templateService = new TemplateManagerService();
 
     private Dictionary<string, Func<ShopReportModel, object>> KeyValuePairs { get; set; } = new Dictionary<string, Func<ShopReportModel, object>>
     {
@@ -15,7 +16,7 @@ public class ShopReportDataService
         { "Items", r => r.Items }
     };
 
-    public void FillReportDataFromModel(XLTemplate template, ShopReportConfiguration configuration, List<ShopReportModel> models)
+    public void FillReportDataFromModel(XLTemplate template, ReportConfiguration configuration, List<ShopReportModel> models)
     {
         var worksheet = template.Workbook.Worksheets.First();
         _ = worksheet.SetShowGridLines(false);
@@ -82,6 +83,6 @@ public class ShopReportDataService
         }
 
         _templateService.FormatStyle(worksheet, configuration, finishedRow);
-        _templateService.DrawBorders(worksheet, configuration, lastDataColumn, initialLastRow);
+        _templateService.DrawBorders(worksheet, configuration, "Shop", lastDataColumn, initialLastRow);
     }
 }
