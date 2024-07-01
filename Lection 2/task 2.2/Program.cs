@@ -39,46 +39,47 @@ internal class Program
                     Console.WriteLine("Enter max price of the game:");
                     decimal MaxPrice = Convert.ToDecimal(Console.ReadLine());
                     var GamesByPrice = GameSystem.GetListByPriceRange(GameList.ListOfGames, MinPrice, MaxPrice);
-                    if (GamesByPrice.Count() == 0)
+                    if (GamesByPrice == null)
                     {
                         Console.WriteLine("Game with this price range doesn't exist");
                         break;
                     }
-                    byte IndexForGLBP = 1;
-                    foreach (var Game in GamesByPrice)
-                    {
-                        if (IndexForGLBP == 1 || IndexForGLBP % 5 == 0)
-                        {
-                            Console.WriteLine($"PAGE N{IndexForGLBP}");
-                        }
-                        Console.WriteLine($"Game name: {Game.Key}\nPrice: {Game.Value}");
-                        IndexForGLBP++;
-                    }
+                    GameSystem.Pagination(GamesByPrice);
                     break;
 
                 case "GLBG":
                     Console.WriteLine("Enter name of the game:");
                     string NameOfGame = Convert.ToString(Console.ReadLine());
                     var Ganres = GameSystem.GetListOfGenresByGame(GameList.ListOfGames, NameOfGame);
-                    Console.WriteLine("GENRES");
-                    foreach (Genre Genre in Ganres)
+                    if (Ganres == null)
                     {
-                        Console.WriteLine($"{Genre.Name}");
+                        Console.WriteLine("This game doesn't exists");
+                    }
+                    else
+                    {
+                        Console.WriteLine("GENRES");
+                        foreach (Genre Genre in Ganres)
+                        {
+                            Console.WriteLine($"{Genre.Name}");
+                        }
                     }
                     break;
 
                 case "GUC":
                     var Unique = GameSystem.GetUniqueCategoriesFromGameList(GameList.ListOfGames);
-                    if (Unique.Count() == 0)
+                    if (Unique.Count == 0)
                     {
-                        Console.WriteLine("Game with this unique genres doesn't exist");
-                        break;
+                        Console.WriteLine("Unique category doesn't exist");
                     }
-                    Console.WriteLine("Unique genres:");
-                    foreach (string Genre in Unique)
+                    else
                     {
-                        Console.WriteLine($"{Genre}");
+                        Console.WriteLine("Unique category:");
+                        foreach (string Genre in Unique)
+                        {
+                            Console.WriteLine($"{Genre}");
+                        }
                     }
+
                     break;
 
                 case "Q":
@@ -87,35 +88,22 @@ internal class Program
 
                 case "GG":
                     List<string> GenresToFilter = new List<string>();
+                    Console.WriteLine("Enter the genres to filtration:");
                     while (true)
                     {
-                        Console.WriteLine("Enter the genres to filtration:");
                         string GanreToFiltration = Convert.ToString(Console.ReadLine());
                         GenresToFilter.Add(GanreToFiltration);
-                        Console.WriteLine("Keep entering (Y/ )");
-                        char Order = Convert.ToChar(Console.ReadLine());
-                        if (Order == 'Y' || Order == 'y')
+                        Console.WriteLine("Stop entering (Y/ )");
+                        char OrderGenres = Convert.ToChar(Console.ReadLine());
+                        if (OrderGenres == 'Y' || OrderGenres == 'y')
                         {
                             break;
                         }
                     }
-                    var Games = GameSystem.GetFilterGamesByCategoryAndGenres(GameList.ListOfGames, GenresToFilter);
-                    if (Games.Count() == 0)
-                    {
-                        Console.WriteLine("Game with this genres doesn't exist");
-                        break;
-                    }
-                    Console.WriteLine("\tGAMES");
-                    byte IndexByGG = 1;
-                    foreach (string Game in Games)
-                    {
-                        if (IndexByGG == 1 || IndexByGG % 5 == 0)
-                        {
-                            Console.WriteLine($"PAGE {IndexByGG}");
-                        }
-                        Console.WriteLine($"{Game}");
-                        IndexByGG++;
-                    }
+                    Console.WriteLine("Enter the category to filtration:");
+                    string CategoryToFiltration = Convert.ToString(Console.ReadLine());
+                    var Games = GameSystem.GetFilterGamesByCategoryAndGenres(GameList.ListOfGames, GenresToFilter, CategoryToFiltration);
+                    GameSystem.Pagination(Games);
                     break;
 
                 default:
