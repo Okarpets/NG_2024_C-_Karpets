@@ -1,7 +1,7 @@
 ﻿using ReportApp.Services;
 
 
-var request = new RequestsService();
+var request = new ConfigurationService();
 var data = request.LoadConfiguration("./Request/Request.json");
 
 switch (data.Type)

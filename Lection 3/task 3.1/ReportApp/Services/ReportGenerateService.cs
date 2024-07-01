@@ -5,7 +5,7 @@ namespace ReportApp.Services;
 
 public class ReportGenerateService
 {
-    private readonly ReportConfigurationService _reportConfigurationService = new ReportConfigurationService();
+    private readonly ConfigurationService _reportConfigurationService = new ConfigurationService();
     private readonly TemplateManagerService _templateService = new TemplateManagerService();
 
     private readonly ActivityTemplateManagerService _activityReportDataService = new ActivityTemplateManagerService();

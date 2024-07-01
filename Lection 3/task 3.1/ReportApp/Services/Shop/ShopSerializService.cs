@@ -7,7 +7,6 @@ public class ShopSerializService
 {
     public List<ShopReportModel> SerializeReportModel(string path)
     {
-        var jsonContent = File.ReadAllText(path);
-        return JsonSerializer.Deserialize<List<ShopReportModel>>(jsonContent);
+        return JsonSerializer.Deserialize<List<ShopReportModel>>(File.ReadAllText(path));
     }
 }
