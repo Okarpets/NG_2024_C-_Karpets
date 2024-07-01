@@ -2,11 +2,10 @@
 using ClosedXML.Report;
 using ReportApp.Models;
 using ReportApp.Models.Activity;
-using ReportApp.Models.Entity;
 
 namespace ReportApp.Services.Activity;
 
-public class ActivityReportDataService
+public class ActivityTemplateManagerService
 {
     private readonly TemplateManagerService _templateService = new TemplateManagerService();
 
@@ -19,10 +18,10 @@ public class ActivityReportDataService
         { "Additional Info", r => r.Complains }
     };
 
-    public void FillReportDataFromModel(XLTemplate template, ReportConfiguration configuration, ActivityReportModel model)
+    public void FillingAndFormattingExcel(XLTemplate template, ActivityReportConfiguration configuration, ActivityReportModel model, string type)
     {
         var worksheet = template.Workbook.Worksheets.First();
-        _ = worksheet.SetShowGridLines(false);
+        worksheet.SetShowGridLines(false);
 
         var firstDataRow = configuration.DefaultRow;
         var firstDataColumn = configuration.FirstColumn;
@@ -44,7 +43,7 @@ public class ActivityReportDataService
             var title = titleCell.Value.ToString();
 
             var previousRange = worksheet.Range(configuration.ReportTitleRow, firstDataColumn, configuration.ReportTitleRow, configuration.LastColumn).Unmerge();
-            _ = previousRange.Clear();
+            previousRange.Clear();
 
             var newRange = worksheet.Range(configuration.ReportTitleRow, firstDataColumn, configuration.ReportTitleRow, lastDataColumn).Merge();
             newRange.Style = style;
@@ -67,54 +66,38 @@ public class ActivityReportDataService
             {
 
                 int column = firstDataColumn;
-                int currentRow = firstDataRow + row;
 
                 foreach (var property in KeyValuePairs)
                 {
                     if (property.Key.Equals("Additional Info"))
                     {
-                        worksheet.Cell(currentRow, column).Value = model.Complains[row].Description;
+                        worksheet.Cell(firstDataRow + row, column).Value = model.Complains[row].Description;
                     }
                     else
                     {
-                        worksheet.Cell(currentRow, column).Value = property.Value(model).ToString();
+                        worksheet.Cell(firstDataRow + row, column).Value = property.Value(model).ToString();
                     }
 
-                    if (currentRow % 2 == 0)
+                    if ((firstDataRow + row) % 2 == 0)
                     {
-                        worksheet.Cell(currentRow, column).Style.Fill.BackgroundColor = XLColor.WhiteSmoke;
-                        worksheet.Cell(currentRow, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Right;
+                        worksheet.Cell(firstDataRow + row, column).Style.Fill.BackgroundColor = XLColor.WhiteSmoke;
+                        worksheet.Cell(firstDataRow + row, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Right;
                     }
                     else
                     {
-                        worksheet.Cell(currentRow, column).Style.Fill.BackgroundColor = XLColor.White;
-                        worksheet.Cell(currentRow, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Left;
+                        worksheet.Cell(firstDataRow + row, column).Style.Fill.BackgroundColor = XLColor.White;
+                        worksheet.Cell(firstDataRow + row, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Left;
                     }
 
                     column++;
                 }
-                configuration.LastRow = Math.Max(configuration.LastRow, currentRow);
+                configuration.LastRow = Math.Max(configuration.LastRow, firstDataRow + row);
             }
         }
 
         var workingRange = worksheet.Range(configuration.ReportTitleRow, firstDataColumn, configuration.LastRow, lastDataColumn);
-        _ = worksheet.Columns(configuration.FirstColumn, configuration.LastColumn).AdjustToContents();
+        worksheet.Columns(configuration.FirstColumn, configuration.LastColumn).AdjustToContents();
 
-        _templateService.DrawBorders(worksheet, configuration, "Activity", lastDataColumn, initialLastRow);
-    }
-
-    public ActivityReportModel GetReportModel(Person client, Admin? admin = null)
-    {
-        var reportModel = new ActivityReportModel()
-        {
-            GeneratedByAdmin = admin,
-            Office = "New York, Wallstreet",
-            GeneratedByClient = null,
-            WorkdayStartTime = DateTime.Now,
-            WorkdayEndTime = DateTime.Now,
-            ReportGeneratedFor = client
-        };
-
-        return reportModel;
+        _templateService.DrawBorders(worksheet, configuration, type, lastDataColumn, initialLastRow);
     }
 }

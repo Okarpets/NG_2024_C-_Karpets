@@ -8,5 +8,5 @@ public class Item
 
     public decimal Cost { get; set; }
 
-    public string? Notes { get; set; }
+    public string Notes { get; set; }
 }

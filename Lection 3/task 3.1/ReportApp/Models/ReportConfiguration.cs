@@ -1,4 +1,5 @@
-﻿namespace ReportApp.Models;
+﻿
+namespace ReportApp.Models;
 
 public class ReportConfiguration
 {
@@ -15,5 +16,4 @@ public class ReportConfiguration
     public int LastRow { get; set; }
 
     public int DefaultRow { get; set; }
-
 }

@@ -1,4 +1,4 @@
 ﻿{
-  "Type": "Shop",
-  "PathToFile": "./JsonExamples/CurrentShopItems.json"
+  "Type": "Activity",
+  "PathToFile": "./JsonExamples/ActivityReportAdminGenerated.json"
 }

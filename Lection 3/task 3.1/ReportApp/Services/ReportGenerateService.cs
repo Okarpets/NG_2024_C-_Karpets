@@ -8,44 +8,50 @@ public class ReportGenerateService
     private readonly ReportConfigurationService _reportConfigurationService = new ReportConfigurationService();
     private readonly TemplateManagerService _templateService = new TemplateManagerService();
 
-    private readonly ActivityReportDataService _activityReportDataService = new ActivityReportDataService();
-    private readonly ShopReportDataService _shopReportDataService = new ShopReportDataService();
+    private readonly ActivityTemplateManagerService _activityReportDataService = new ActivityTemplateManagerService();
+    private readonly ShopTemplateManagerService _shopReportDataService = new ShopTemplateManagerService();
 
-    private readonly ActivityerializService _activitySerializService = new ActivityerializService();
+    private readonly ActivitySerializService _activitySerializService = new ActivitySerializService();
     private readonly ShopSerializService _shopSerializService = new ShopSerializService();
 
     public void GenerateReport(string pathToFile, string type)
     {
-        string pathToConfiguration;
-        string pathToSave;
-        switch (type)
+        Action action = type switch
         {
-            case "Activity":
-                pathToConfiguration = "./ReportConfigurations/Activity.json";
-                pathToSave = "../../../Reports/ActivityReport.xlsx";
+            "Activity" => () => GenerateActivityReport(pathToFile, type),
+            "Shop" => () => GenerateShopReport(pathToFile, type),
+            _ => throw new ArgumentException("It's a wrong report type"),
+        };
 
-                var activityTemplate = _templateService.GetReportTemplate(type);
-                var activityModel = _activitySerializService.SerializeReportModel(pathToFile);
+        action();
+    }
 
-                _activityReportDataService.FillReportDataFromModel(activityTemplate, _reportConfigurationService.GetConfiguration(pathToConfiguration), activityModel);
-                _templateService.FillHeader(activityTemplate, _reportConfigurationService.GetConfiguration(pathToConfiguration), activityModel);
+    private void GenerateActivityReport(string pathToFile, string type)
+    {
+        string pathToConfiguration = "./ReportConfigurations/Activity.json";
 
-                _ = activityTemplate.Generate();
-                activityTemplate.SaveAs(pathToSave);
-                break;
+        var configuration = _reportConfigurationService.GetActivityConfiguration(pathToConfiguration);
+        var activityTemplate = _templateService.GetReportTemplate(type);
+        var activityModel = _activitySerializService.SerializeReportModel(pathToFile);
 
-            case "Shop":
-                pathToConfiguration = "./ReportConfigurations/Shop.json";
-                pathToSave = "../../../Reports/ShopReport.xlsx";
+        _activityReportDataService.FillingAndFormattingExcel(activityTemplate, configuration, activityModel, type);
+        _templateService.FillHeader(activityTemplate, configuration, activityModel);
 
-                var shopTemplate = _templateService.GetReportTemplate(type);
-                var shopModels = _shopSerializService.SerializeReportModel(pathToFile);
+        activityTemplate.Generate();
+        activityTemplate.SaveAs(configuration.SavePath);
+    }
 
-                _shopReportDataService.FillReportDataFromModel(shopTemplate, _reportConfigurationService.GetConfiguration(pathToConfiguration), shopModels);
+    private void GenerateShopReport(string pathToFile, string type)
+    {
+        string pathToConfiguration = "./ReportConfigurations/Shop.json";
 
-                _ = shopTemplate.Generate();
-                shopTemplate.SaveAs(pathToSave);
-                break;
-        }
+        var configuration = _reportConfigurationService.GetShopConfiguration(pathToConfiguration);
+        var shopTemplate = _templateService.GetReportTemplate(type);
+        var shopModels = _shopSerializService.SerializeReportModel(pathToFile);
+
+        _shopReportDataService.FillingAndFormattingExcel(shopTemplate, configuration, shopModels, type);
+
+        shopTemplate.Generate();
+        shopTemplate.SaveAs(configuration.SavePath);
     }
 }

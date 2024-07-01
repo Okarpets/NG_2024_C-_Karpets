@@ -3,14 +3,11 @@ using System.Text.Json;
 
 namespace ReportApp.Services.Activity;
 
-public class ActivityerializService
+public class ActivitySerializService
 {
-    private readonly TemplateManagerService _templateService = new TemplateManagerService();
-
     public ActivityReportModel SerializeReportModel(string path)
     {
         var jsonContent = File.ReadAllText(path);
-        var model = JsonSerializer.Deserialize<ActivityReportModel>(jsonContent);
-        return model;
+        return JsonSerializer.Deserialize<ActivityReportModel>(jsonContent);
     }
 }
