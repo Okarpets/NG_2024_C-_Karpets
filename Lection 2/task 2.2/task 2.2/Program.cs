@@ -44,7 +44,7 @@ internal class Program
                         Console.WriteLine("Game with this price range doesn't exist");
                         break;
                     }
-                    GameSystem.Pagination(GamesByPrice);
+                    GameSystem.PageHandler(GamesByPrice, "Price");
                     break;
 
                 case "GLBG":
@@ -54,14 +54,11 @@ internal class Program
                     if (Ganres == null)
                     {
                         Console.WriteLine("This game doesn't exists");
+                        break;
                     }
-                    else
+                    foreach (Genre Genre in Ganres)
                     {
-                        Console.WriteLine("GENRES");
-                        foreach (Genre Genre in Ganres)
-                        {
-                            Console.WriteLine($"{Genre.Name}");
-                        }
+                        Console.WriteLine(Genre.Name);
                     }
                     break;
 
@@ -102,8 +99,8 @@ internal class Program
                     }
                     Console.WriteLine("Enter the category to filtration:");
                     string CategoryToFiltration = Convert.ToString(Console.ReadLine());
-                    var Games = GameSystem.GetFilterGamesByCategoryAndGenres(GameList.ListOfGames, GenresToFilter, CategoryToFiltration);
-                    GameSystem.Pagination(Games);
+                    var GamesByFilter = GameSystem.GetFilterGamesByCategoryAndGenres(GameList.ListOfGames, GenresToFilter, CategoryToFiltration);
+                    GameSystem.PageHandler(GamesByFilter, "Genres");
                     break;
 
                 default:
