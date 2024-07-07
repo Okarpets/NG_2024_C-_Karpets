@@ -6,6 +6,6 @@
   "firstRowForStaticGroup": 9,
   "lastRow": 11,
   "defaultRow": 10,
-  "numberColumnFirst": 5,
-  "numberColumnLast": 6
+  "FirstColumnNumber": 5,
+  "LastColumnNumber": 6
 }

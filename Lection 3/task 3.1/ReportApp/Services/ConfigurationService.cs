@@ -1,30 +1,16 @@
-﻿using ReportApp.Models;
-using System.Text.Json;
+﻿using System.Text.Json;
 
 namespace ReportApp.Services;
 
 public class ConfigurationService
 {
-    private JsonSerializerOptions SerializerOptions()
+    public T LoadConfiguration<T>(string path)
     {
-        return new JsonSerializerOptions
+        var jsonContent = File.ReadAllText(path);
+        var options = new JsonSerializerOptions
         {
             PropertyNameCaseInsensitive = true
         };
-    }
-
-    public RequestModel LoadConfiguration(string path)
-    {
-        return JsonSerializer.Deserialize<RequestModel>(File.ReadAllText(path), SerializerOptions());
-    }
-
-    public ShopReportConfiguration GetShopConfiguration(string path)
-    {
-        return JsonSerializer.Deserialize<ShopReportConfiguration>(File.ReadAllText(path), SerializerOptions());
-    }
-
-    public ActivityReportConfiguration GetActivityConfiguration(string path)
-    {
-        return JsonSerializer.Deserialize<ActivityReportConfiguration>(File.ReadAllText(path), SerializerOptions());
+        return JsonSerializer.Deserialize<T>(jsonContent, options);
     }
 }

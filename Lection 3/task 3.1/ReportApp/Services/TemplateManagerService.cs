@@ -8,29 +8,42 @@ namespace ReportApp.Services;
 
 public class TemplateManagerService
 {
-    private ActivityReportSettings Settings { get; set; }
+    private readonly ConfigurationService _configurationService = new ConfigurationService();
+    private static ActivityReportSettings Settings { get; set; }
 
-    private XLTemplate ShopReportTemplate()
+    Dictionary<string, string> GetTemplate = new Dictionary<string, string>
     {
-        return new(@"./Templates/ShopReport.xlsx");
-    }
+        {
+            "Shop", "./Templates/ShopReport.xlsx"
+        },
+        {
+            "Activity", "./Templates/ActivityReport.xlsx"
+        }
+    };
 
-    private XLTemplate ActivityReportTemplate()
+    public static Dictionary<string, Action<IXLWorksheet, ReportConfiguration, string, int, int>> GetDraw = new Dictionary<string, Action<IXLWorksheet, ReportConfiguration, string, int, int>>
     {
-        return new(@"./Templates/ActivityReport.xlsx");
-    }
+        {
+            "Shop", (worksheet, configuration, type, actualLastColumn, initialLastRow) => DrawBorders(worksheet, configuration, type, actualLastColumn - 1, configuration.LastRow - 2)
+        },
+        {
+            "Activity", (worksheet, configuration, type, actualLastColumn, initialLastRow) => DrawBorders(worksheet, configuration, type, actualLastColumn, configuration.LastRow)
+        }
+    };
 
     public XLTemplate GetReportTemplate(string type)
     {
-        return type switch
+        if (GetTemplate.TryGetValue(type, out var actionTemplate))
         {
-            "Activity" => ActivityReportTemplate(),
-            "Shop" => ShopReportTemplate(),
-            _ => throw new ArgumentException("It's a wrong report type"),
-        };
+            return new XLTemplate(actionTemplate);
+        }
+        else
+        {
+            throw new Exception($"Template for '{type}' not found");
+        }
     }
 
-    private void FillSettings(ActivityReportModel model)
+    private static void FillSettings(ActivityReportModel model)
     {
         Admin? generatedByAdmin = null;
         Client? generatedByClient = null;
@@ -52,7 +65,7 @@ public class TemplateManagerService
         };
     }
 
-    public void FillHeader(XLTemplate template, ReportConfiguration configuration, ActivityReportModel activityModel)
+    public static void FillHeader(XLTemplate template, ReportConfiguration configuration, ActivityReportModel activityModel)
     {
         FillSettings(activityModel);
 
@@ -74,7 +87,7 @@ public class TemplateManagerService
         }
     }
 
-    public void CleanTestData(XLTemplate template, ReportConfiguration configuration, int actualLastColumn)
+    public static void CleanTestData(XLTemplate template, ReportConfiguration configuration, int actualLastColumn)
     {
         var worksheet = template.Workbook.Worksheets.First();
         for (int row = configuration.DefaultRow; row <= configuration.LastRow; row++)
@@ -86,25 +99,26 @@ public class TemplateManagerService
         }
     }
 
-    private void FormattingConfigToShop(ReportConfiguration configuration, ref int actualLastColumn)
+    private static void FormattingConfigToShop(ReportConfiguration configuration)
     {
         configuration.LastRow -= 2;
-        actualLastColumn--;
     }
 
-    public void DrawBorders(IXLWorksheet worksheet, ReportConfiguration configuration, string type, int actualLastColumn, int initialLastRow)
+    public static void GetDrawTemplate(IXLWorksheet worksheet, ReportConfiguration configuration, string type, int actualLastColumn, int initialLastRow)
     {
-        Action action = type switch
+        if (GetDraw.TryGetValue(type, out var drawTemplate))
         {
-            "Activity" => () => { }
-            ,
-            "Shop" => () => FormattingConfigToShop(configuration, ref actualLastColumn),
-            _ => throw new ArgumentException("It's a wrong report type"),
-        };
+            drawTemplate(worksheet, configuration, type, actualLastColumn, initialLastRow);
+        }
+        else
+        {
+            throw new Exception($"Template for '{type}' not found");
+        }
+    }
 
-        action();
-
-        for (int row = configuration.ReportTitleRow; row <= configuration.LastRow; row++)
+    public static void DrawBorders(IXLWorksheet worksheet, ReportConfiguration configuration, string type, int actualLastColumn, int initialLastRow)
+    {
+        for (int row = configuration.ReportTitleRow; row <= initialLastRow; row++)
         {
             for (int column = configuration.FirstColumn; column <= actualLastColumn; column++)
             {
@@ -116,19 +130,14 @@ public class TemplateManagerService
 
     public void FormatStyle(IXLWorksheet worksheet, ShopReportConfiguration configuration, int finishedRow)
     {
-        for (int row = configuration.DefaultRow; row < finishedRow; row++)
+        for (int row = configuration.DefaultRow; row < finishedRow - 1; row++)
         {
             if (row % 2 != 0)
             {
                 for (int column = configuration.FirstColumn; column <= configuration.LastColumn - 1; column++)
                 {
                     worksheet.Cell(row, column).Style.Fill.BackgroundColor = XLColor.WhiteSmoke;
-                    if (column != configuration.numberColumnFirst || column != configuration.numberColumnLast)
-                    {
-                        worksheet.Cell(row, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Right;
-                        InCenter(worksheet, row, column, configuration);
-                    }
-
+                    worksheet.Cell(row, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Right;
                 }
             }
             else
@@ -136,21 +145,20 @@ public class TemplateManagerService
                 for (int column = configuration.FirstColumn; column <= configuration.LastColumn - 1; column++)
                 {
                     worksheet.Cell(row, column).Style.Fill.BackgroundColor = XLColor.White;
-                    if (column != configuration.numberColumnFirst || column != configuration.numberColumnLast)
-                    {
-                        worksheet.Cell(row, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Left;
-                        InCenter(worksheet, row, column, configuration);
-                    }
+                    worksheet.Cell(row, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Left;
                 }
             }
         }
     }
 
-    private void InCenter(IXLWorksheet worksheet, int row, int column, ShopReportConfiguration configuration)
+    public void InCenter(IXLWorksheet worksheet, CentrationModel data)
     {
-        if (column == configuration.numberColumnFirst || column == configuration.numberColumnLast)
+        for (int row = data.FirstDynamicRow; row <= data.LastDynamicRow; row++)
         {
-            worksheet.Cell(row, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Center;
+            for (int column = data.FirstDynamicColumn; column <= data.LastDynamicColumn; column++)
+            {
+                worksheet.Cell(row, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Center;
+            }
         }
     }
 }
