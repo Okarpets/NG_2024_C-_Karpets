@@ -99,11 +99,6 @@ public class TemplateManagerService
         }
     }
 
-    private static void FormattingConfigToShop(ReportConfiguration configuration)
-    {
-        configuration.LastRow -= 2;
-    }
-
     public static void GetDrawTemplate(IXLWorksheet worksheet, ReportConfiguration configuration, string type, int actualLastColumn, int initialLastRow)
     {
         if (GetDraw.TryGetValue(type, out var drawTemplate))
