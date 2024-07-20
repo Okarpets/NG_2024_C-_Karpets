@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 5\\task 1\\entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|solutionrelative:entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 5\\task 1\\datalayer\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 5\\task 1\\datalayer\\data\\repositories\\realization\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\realization\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 5\\task 1\\entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|solutionrelative:entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 5\\task 1\\datalayer\\data\\repositories\\interfaces\\imanagerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -154,24 +154,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\DataLayer\\Data\\Repositories\\Realization\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Realization\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\DataLayer\\Data\\Repositories\\Realization\\EmployeeRepository.cs",
-              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Realization\\EmployeeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T08:55:34.717Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DataSeeder.cs",
               "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\DataLayer\\DataSeeder.cs",
               "RelativeDocumentMoniker": "DataLayer\\DataSeeder.cs",
@@ -179,12 +166,11 @@
               "RelativeToolTip": "DataLayer\\DataSeeder.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T09:15:27.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T09:15:27.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Storage.cs",
               "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\DataLayer\\Entities\\Storage.cs",
               "RelativeDocumentMoniker": "DataLayer\\Entities\\Storage.cs",
@@ -192,12 +178,11 @@
               "RelativeToolTip": "DataLayer\\Entities\\Storage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T21:41:50.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T21:41:50.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "StorageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\DataLayer\\Data\\Repositories\\Realization\\StorageRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Realization\\StorageRepository.cs",
@@ -205,12 +190,11 @@
               "RelativeToolTip": "DataLayer\\Data\\Repositories\\Realization\\StorageRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T08:56:20.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T08:56:20.252Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\DataLayer\\Data\\Repositories\\Realization\\Repository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Realization\\Repository.cs",
@@ -218,12 +202,11 @@
               "RelativeToolTip": "DataLayer\\Data\\Repositories\\Realization\\Repository.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAIAywBYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T07:37:43.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T07:37:43.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StorageConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\DataLayer\\Data\\EntitiesConfigurations\\StorageConfiguration.cs",
               "RelativeDocumentMoniker": "DataLayer\\Data\\EntitiesConfigurations\\StorageConfiguration.cs",
@@ -231,12 +214,11 @@
               "RelativeToolTip": "DataLayer\\Data\\EntitiesConfigurations\\StorageConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T07:17:52.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T07:17:52.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Interfaces\\IUnitOfWork.cs",
@@ -244,12 +226,11 @@
               "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\IUnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T08:19:55.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T08:19:55.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "IStorageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IStorageRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Interfaces\\IStorageRepository.cs",
@@ -257,12 +238,11 @@
               "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\IStorageRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T08:53:09.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T08:53:09.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DataLayerDI.cs",
               "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\DataLayer\\Data\\DataLayerDI.cs",
               "RelativeDocumentMoniker": "DataLayer\\Data\\DataLayerDI.cs",
@@ -270,12 +250,36 @@
               "RelativeToolTip": "DataLayer\\Data\\DataLayerDI.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T21:37:41.543Z",
+              "WhenOpened": "2024-07-14T21:37:41.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\EntityFramework\\Program.cs",
+              "RelativeDocumentMoniker": "EntityFramework\\Program.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\EntityFramework\\Program.cs",
+              "RelativeToolTip": "EntityFramework\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:36:17.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\DataLayer\\Data\\Repositories\\Realization\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Realization\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\DataLayer\\Data\\Repositories\\Realization\\EmployeeRepository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Realization\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:55:34.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\DataLayer\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "DataLayer\\Data\\DbInitializer.cs",
@@ -283,12 +287,11 @@
               "RelativeToolTip": "DataLayer\\Data\\DbInitializer.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAqwAgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T07:47:01.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T07:47:01.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\DataLayer\\Data\\Repositories\\Realization\\ClientRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Realization\\ClientRepository.cs",
@@ -296,21 +299,7 @@
               "RelativeToolTip": "DataLayer\\Data\\Repositories\\Realization\\ClientRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T08:55:03.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\EntityFramework\\Program.cs",
-              "RelativeDocumentMoniker": "EntityFramework\\Program.cs",
-              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 5\\task 1\\EntityFramework\\Program.cs",
-              "RelativeToolTip": "EntityFramework\\Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAADwvysAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-14T21:36:17.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T08:55:03.339Z"
             },
             {
               "$type": "Document",
@@ -322,8 +311,7 @@
               "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\IManagerRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T08:53:00.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T08:53:00.168Z"
             },
             {
               "$type": "Document",
@@ -347,8 +335,7 @@
               "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\IItemRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T08:11:28.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T08:11:28.742Z"
             },
             {
               "$type": "Document",
@@ -360,8 +347,7 @@
               "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\IClientRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T08:52:20.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T08:52:20.285Z"
             },
             {
               "$type": "Document",
@@ -373,8 +359,7 @@
               "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\ICategoryRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T08:52:00.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T08:52:00.89Z"
             },
             {
               "$type": "Document",
@@ -434,8 +419,7 @@
               "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\IEmployeeRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T08:52:49.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T08:52:49.055Z"
             },
             {
               "$type": "Document",
