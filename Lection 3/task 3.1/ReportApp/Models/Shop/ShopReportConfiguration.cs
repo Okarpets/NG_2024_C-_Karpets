@@ -1,20 +1,9 @@
-﻿using ReportApp.Interfaces;
+﻿namespace ReportApp.Models;
 
-namespace ReportApp.Models.Shop;
-
-public class ShopReportConfiguration : IReportConfiguration
+public class ShopReportConfiguration : ReportConfiguration
 {
-    public int ReportTitleRow { get; set; }
+    public int FirstColumnNumber { get; set; }
 
-    public int FirstColumn { get; set; }
+    public int LastColumnNumber { get; set; }
 
-    public int LastColumn { get; set; }
-
-    public int FirstRowForDynamicGroup { get; set; }
-
-    public int FirstRowForStaticGroup { get; set; }
-
-    public int LastRow { get; set; }
-
-    public int DefaultRow { get; set; }
 }
