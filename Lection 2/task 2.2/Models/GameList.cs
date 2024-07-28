@@ -81,7 +81,7 @@ static public class GameList
         {
             Id = 6,
             Name = "Cyberpunk 2077",
-            Category = "Open-world",
+            Category = "Role-play",
             Price = 1099,
             Genres = new List<Genre>()
             {
@@ -94,7 +94,7 @@ static public class GameList
         {
             Id = 7,
             Name = "Red Dead Redemption 2",
-            Category = "Open-world",
+            Category = "Role-play",
             Price = 899,
             Genres = new List<Genre>()
             {
@@ -106,7 +106,7 @@ static public class GameList
         {
             Id = 8,
             Name = "The Witcher 3: Wild Hunt",
-            Category = "Open-world",
+            Category = "Role-play",
             Price = 729,
             Genres = new List<Genre>()
             {
@@ -128,7 +128,7 @@ static public class GameList
         {
             Id = 10,
             Name = "Dark Souls",
-            Category = "Action",
+            Category = "Souls-like",
             Price = 321,
             Genres = new List<Genre>()
             {
