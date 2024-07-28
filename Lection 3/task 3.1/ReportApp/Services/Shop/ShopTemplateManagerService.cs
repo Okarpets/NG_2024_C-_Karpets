@@ -5,7 +5,7 @@ using ReportApp.Models.Shop;
 
 namespace ReportApp.Services.Shop;
 
-public class ShopTemplateManagerService
+public class ShopTemplateManagerService : TemplateManagerService
 {
     private static TemplateManagerService _templateService = new TemplateManagerService();
 
@@ -42,13 +42,6 @@ public class ShopTemplateManagerService
         };
 
         _templateService.InCenter(worksheet, centrationData);
-    }
-
-    private static IXLWorksheet InitializeWorksheet(XLTemplate template, ShopReportConfiguration configuration)
-    {
-        var worksheet = template.Workbook.Worksheets.First();
-        worksheet.SetShowGridLines(false);
-        return worksheet;
     }
 
     private static void FillReportData(IXLWorksheet worksheet, ShopReportConfiguration configuration, List<ShopReportModel> models, int groupAmount)
@@ -109,6 +102,6 @@ public class ShopTemplateManagerService
     {
         var workingRange = worksheet.Range(configuration.ReportTitleRow, configuration.FirstColumn, configuration.LastRow, lastDataColumn);
         _templateService.FormatStyle(worksheet, configuration, configuration.LastRow);
-        TemplateManagerService.GetDrawTemplate(worksheet, configuration, type, lastDataColumn, initialLastRow);
+        GetDrawTemplate(worksheet, configuration, type, lastDataColumn, initialLastRow);
     }
 }

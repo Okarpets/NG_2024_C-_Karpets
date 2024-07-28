@@ -156,4 +156,18 @@ public class TemplateManagerService
             }
         }
     }
+
+    protected static IXLWorksheet InitializeWorksheet(XLTemplate template, ReportConfiguration configuration)
+    {
+        var worksheet = template.Workbook.Worksheets.First();
+        worksheet.SetShowGridLines(false);
+        return worksheet;
+    }
+
+    protected static void FinalizeWorksheet(IXLWorksheet worksheet, ActivityReportConfiguration configuration, string type, int lastDataColumn, int initialLastRow)
+    {
+        var workingRange = worksheet.Range(configuration.ReportTitleRow, configuration.FirstColumn, configuration.LastRow, lastDataColumn);
+        worksheet.Columns(configuration.FirstColumn, configuration.LastColumn).AdjustToContents();
+        GetDrawTemplate(worksheet, configuration, type, lastDataColumn, initialLastRow);
+    }
 }

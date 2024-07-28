@@ -1,0 +1,414 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\request\\request.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\request\\request.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\services\\activity\\activitytemplatemanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\activity\\activitytemplatemanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\services\\shopgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\shopgeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\services\\activitygeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\activitygeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\services\\basegeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\basegeneratorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\services\\configurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\configurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\services\\templatemanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\templatemanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\services\\shop\\shoptemplatemanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\shop\\shoptemplatemanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\services\\serializereportmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\services\\serializereportmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\models\\centrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\centrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\models\\reportconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\reportconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\models\\shop\\shopreportmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\shop\\shopreportmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\models\\shop\\shopreportconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\shop\\shopreportconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\jsonexamples\\currentshopitems2.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\jsonexamples\\currentshopitems2.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\reportconfigurations\\shop.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\reportconfigurations\\shop.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\reportconfigurations\\activity.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\reportconfigurations\\activity.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\models\\activity\\activityreportmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\activity\\activityreportmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\models\\activity\\activityreportsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\activity\\activityreportsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\models\\data\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\data\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\models\\data\\complains.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\data\\complains.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\models\\activity\\activityreportconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\models\\activity\\activityreportconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\jsonexamples\\currentshopitems.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\jsonexamples\\currentshopitems.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 3\\task 3.1\\reportapp\\jsonexamples\\currentshopitems1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DD661DA5-6D00-40D1-AF82-EFD192AF7930}|ReportApp\\ReportApp.csproj|solutionrelative:reportapp\\jsonexamples\\currentshopitems1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShopGeneratorService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\ShopGeneratorService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\ShopGeneratorService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\ShopGeneratorService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\ShopGeneratorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T09:22:33.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ActivityGeneratorService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\ActivityGeneratorService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\ActivityGeneratorService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\ActivityGeneratorService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\ActivityGeneratorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T09:17:35.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TemplateManagerService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\TemplateManagerService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\TemplateManagerService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\TemplateManagerService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\TemplateManagerService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAIwKsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:36:27.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Program.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Program.cs",
+              "RelativeToolTip": "ReportApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T16:48:14.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseGeneratorService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\BaseGeneratorService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\BaseGeneratorService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\BaseGeneratorService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\BaseGeneratorService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T22:43:58.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConfigurationService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\ConfigurationService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\ConfigurationService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\ConfigurationService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\ConfigurationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T09:21:51.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Request.json",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Request\\Request.json",
+              "RelativeDocumentMoniker": "ReportApp\\Request\\Request.json",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Request\\Request.json",
+              "RelativeToolTip": "ReportApp\\Request\\Request.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T15:25:47.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActivityTemplateManagerService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\Activity\\ActivityTemplateManagerService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\Activity\\ActivityTemplateManagerService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\Activity\\ActivityTemplateManagerService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\Activity\\ActivityTemplateManagerService.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAuwAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T09:18:12.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShopTemplateManagerService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\Shop\\ShopTemplateManagerService.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\Shop\\ShopTemplateManagerService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\Shop\\ShopTemplateManagerService.cs",
+              "RelativeToolTip": "ReportApp\\Services\\Shop\\ShopTemplateManagerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:05:46.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SerializeReportModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\SerializeReportModel.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Services\\SerializeReportModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Services\\SerializeReportModel.cs",
+              "RelativeToolTip": "ReportApp\\Services\\SerializeReportModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T09:21:52.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReportConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\ReportConfiguration.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\ReportConfiguration.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\ReportConfiguration.cs",
+              "RelativeToolTip": "ReportApp\\Models\\ReportConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:35:35.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShopReportModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\Shop\\ShopReportModel.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\Shop\\ShopReportModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\Shop\\ShopReportModel.cs",
+              "RelativeToolTip": "ReportApp\\Models\\Shop\\ShopReportModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T20:07:33.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShopReportConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\Shop\\ShopReportConfiguration.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\Shop\\ShopReportConfiguration.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\Shop\\ShopReportConfiguration.cs",
+              "RelativeToolTip": "ReportApp\\Models\\Shop\\ShopReportConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T16:15:41.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CentrationModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\CentrationModel.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\CentrationModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\CentrationModel.cs",
+              "RelativeToolTip": "ReportApp\\Models\\CentrationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T21:08:02.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CurrentShopItems2.json",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\JsonExamples\\CurrentShopItems2.json",
+              "RelativeDocumentMoniker": "ReportApp\\JsonExamples\\CurrentShopItems2.json",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\JsonExamples\\CurrentShopItems2.json",
+              "RelativeToolTip": "ReportApp\\JsonExamples\\CurrentShopItems2.json",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAEIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T20:15:14.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Activity.json",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\ReportConfigurations\\Activity.json",
+              "RelativeDocumentMoniker": "ReportApp\\ReportConfigurations\\Activity.json",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\ReportConfigurations\\Activity.json",
+              "RelativeToolTip": "ReportApp\\ReportConfigurations\\Activity.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T15:25:42.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Shop.json",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\ReportConfigurations\\Shop.json",
+              "RelativeDocumentMoniker": "ReportApp\\ReportConfigurations\\Shop.json",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\ReportConfigurations\\Shop.json",
+              "RelativeToolTip": "ReportApp\\ReportConfigurations\\Shop.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T15:25:43.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ActivityReportModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\Activity\\ActivityReportModel.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\Activity\\ActivityReportModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\Activity\\ActivityReportModel.cs",
+              "RelativeToolTip": "ReportApp\\Models\\Activity\\ActivityReportModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:24:11.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ActivityReportSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\Activity\\ActivityReportSettings.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\Activity\\ActivityReportSettings.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\Activity\\ActivityReportSettings.cs",
+              "RelativeToolTip": "ReportApp\\Models\\Activity\\ActivityReportSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T16:36:54.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\Data\\Item.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\Data\\Item.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\Data\\Item.cs",
+              "RelativeToolTip": "ReportApp\\Models\\Data\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:24:42.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Complains.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\Data\\Complains.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\Data\\Complains.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\Data\\Complains.cs",
+              "RelativeToolTip": "ReportApp\\Models\\Data\\Complains.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T15:24:40.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ActivityReportConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\Activity\\ActivityReportConfiguration.cs",
+              "RelativeDocumentMoniker": "ReportApp\\Models\\Activity\\ActivityReportConfiguration.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\Models\\Activity\\ActivityReportConfiguration.cs",
+              "RelativeToolTip": "ReportApp\\Models\\Activity\\ActivityReportConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T16:15:17.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CurrentShopItems.json",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\JsonExamples\\CurrentShopItems.json",
+              "RelativeDocumentMoniker": "ReportApp\\JsonExamples\\CurrentShopItems.json",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\JsonExamples\\CurrentShopItems.json",
+              "RelativeToolTip": "ReportApp\\JsonExamples\\CurrentShopItems.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T20:11:59.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CurrentShopItems1.json",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\JsonExamples\\CurrentShopItems1.json",
+              "RelativeDocumentMoniker": "ReportApp\\JsonExamples\\CurrentShopItems1.json",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 3\\task 3.1\\ReportApp\\JsonExamples\\CurrentShopItems1.json",
+              "RelativeToolTip": "ReportApp\\JsonExamples\\CurrentShopItems1.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-01T20:15:23.132Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

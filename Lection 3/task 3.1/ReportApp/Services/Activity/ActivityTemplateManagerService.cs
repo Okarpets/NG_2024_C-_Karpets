@@ -6,10 +6,8 @@ using ReportApp.Models.Entity;
 
 namespace ReportApp.Services.Activity;
 
-public class ActivityTemplateManagerService
+public class ActivityTemplateManagerService : TemplateManagerService
 {
-    private readonly TemplateManagerService _templateService = new TemplateManagerService();
-
     private static Dictionary<string, Func<ActivityReportModel, object>> KeyValuePairs { get; set; } = new Dictionary<string, Func<ActivityReportModel, object>>
     {
         { "FirstName", r => r.ReportGeneratedFor.FirstName },
@@ -33,13 +31,6 @@ public class ActivityTemplateManagerService
         FinalizeWorksheet(worksheet, configuration, type, lastDataColumn, initialLastRow);
     }
 
-    private static IXLWorksheet InitializeWorksheet(XLTemplate template, ActivityReportConfiguration configuration)
-    {
-        var worksheet = template.Workbook.Worksheets.First();
-        worksheet.SetShowGridLines(false);
-        return worksheet;
-    }
-
     private static (int, int) AdjustForAdminGeneratedReport(XLTemplate template, ActivityReportConfiguration configuration, ActivityReportModel model)
     {
         int groupAmount = 2;
@@ -51,7 +42,7 @@ public class ActivityTemplateManagerService
             lastDataColumn -= 3;
             DeleteUnusedColumns(template, configuration, lastDataColumn);
             AdjustReportTitle(template, configuration, lastDataColumn);
-            TemplateManagerService.CleanTestData(template, configuration, lastDataColumn);
+            CleanTestData(template, configuration, lastDataColumn);
         }
 
         return (groupAmount, lastDataColumn);
@@ -138,12 +129,5 @@ public class ActivityTemplateManagerService
             worksheet.Cell(row, column).Style.Fill.BackgroundColor = XLColor.White;
             worksheet.Cell(row, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Left;
         }
-    }
-
-    private static void FinalizeWorksheet(IXLWorksheet worksheet, ActivityReportConfiguration configuration, string type, int lastDataColumn, int initialLastRow)
-    {
-        var workingRange = worksheet.Range(configuration.ReportTitleRow, configuration.FirstColumn, configuration.LastRow, lastDataColumn);
-        worksheet.Columns(configuration.FirstColumn, configuration.LastColumn).AdjustToContents();
-        TemplateManagerService.GetDrawTemplate(worksheet, configuration, type, lastDataColumn, initialLastRow);
     }
 }
