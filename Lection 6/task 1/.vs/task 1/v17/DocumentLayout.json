@@ -1,0 +1,1241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|solutionrelative:entityframework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\entityframework\\migrations\\20240802114951_migrationaftertasknumbersix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|solutionrelative:entityframework\\migrations\\20240802114951_migrationaftertasknumbersix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\entityframework\\migrations\\webstoragedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|solutionrelative:entityframework\\migrations\\webstoragedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\entityframework\\migrations\\20240714215237_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|solutionrelative:entityframework\\migrations\\20240714215237_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\datalayerdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\datalayerdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\realization\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\realization\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\services\\interfaces\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\services\\interfaces\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\services\\classes\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\services\\classes\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\getentitymodels\\readitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\getentitymodels\\readitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\addentitymodels\\saveitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\addentitymodels\\saveitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\infrastructure\\webstoragedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\infrastructure\\webstoragedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\entitiesconfigurations\\itemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\entitiesconfigurations\\itemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\entitiesconfigurations\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\entitiesconfigurations\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\extensions\\blldi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\extensions\\blldi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\entityframework\\entityframework.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|solutionrelative:entityframework\\entityframework.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\entityframework\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|solutionrelative:entityframework\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\entityframework\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|solutionrelative:entityframework\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\entities\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\storage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\services\\classes\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\services\\classes\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\services\\classes\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\services\\classes\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\services\\classes\\managerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\services\\classes\\managerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\services\\classes\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\services\\classes\\storageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\services\\interfaces\\imanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\services\\interfaces\\imanagerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\services\\interfaces\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\services\\interfaces\\istorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\services\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\services\\interfaces\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\services\\classes\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\services\\classes\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\services\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\services\\interfaces\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\modelentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\modelentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\updateentitymodels\\updateitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\updateentitymodels\\updateitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\updateentitymodels\\updateemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\updateentitymodels\\updateemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\mapping\\automapperbllprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\mapping\\automapperbllprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\getentitymodels\\readstoragemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\getentitymodels\\readstoragemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\addentitymodels\\savemanagermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\addentitymodels\\savemanagermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\updateentitymodels\\updatecategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\updateentitymodels\\updatecategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\entitiesconfigurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\entitiesconfigurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\entities\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\getentitymodels\\readmanagermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\getentitymodels\\readmanagermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\addentitymodels\\saveemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\addentitymodels\\saveemployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\updateentitymodels\\updateclientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\updateentitymodels\\updateclientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\addentitymodels\\saveclientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\addentitymodels\\saveclientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\addentitymodels\\savecategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\addentitymodels\\savecategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\realization\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\realization\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\entitiesconfigurations\\clientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\entitiesconfigurations\\clientconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\updateentitymodels\\updatemanagermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\updateentitymodels\\updatemanagermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\entitiesconfigurations\\managerconfigutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\entitiesconfigurations\\managerconfigutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\entitiesconfigurations\\storageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\entitiesconfigurations\\storageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\updateentitymodels\\updatestoragemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\updateentitymodels\\updatestoragemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\getentitymodels\\reademployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\getentitymodels\\reademployeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\getentitymodels\\readclientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\getentitymodels\\readclientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\getentitymodels\\readcategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\getentitymodels\\readcategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\bll\\modles\\addentitymodels\\savestoragemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D97B182-ACF5-405D-A39D-5EB1FC557193}|BLL\\BLL.csproj|solutionrelative:bll\\modles\\addentitymodels\\savestoragemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\realization\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\realization\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\interfaces\\istoragerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\interfaces\\istoragerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\realization\\storagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\realization\\storagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\interfaces\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\realization\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\realization\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\interfaces\\imanagerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\interfaces\\imanagerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\realization\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\realization\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\data\\repositories\\realization\\managerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\data\\repositories\\realization\\managerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\entityframework\\entityframework.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{ED4CC887-44B2-4D80-A09E-A478840AAE7C}|EntityFramework\\EntityFramework.csproj|solutionrelative:entityframework\\entityframework.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|c:\\users\\okarpets\\ng_2024_c-_karpets\\lection 6\\task 1\\datalayer\\datalayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{102FEF02-302F-436B-A5F7-23AD49F458F7}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\datalayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IItemRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Interfaces\\IItemRepository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IItemRepository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\IItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:11:28.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Interfaces\\IItemService.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\Services\\Interfaces\\IItemService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Interfaces\\IItemService.cs",
+              "RelativeToolTip": "BLL\\Modles\\Services\\Interfaces\\IItemService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:21:16.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Realization\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Realization\\ItemRepository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Realization\\ItemRepository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Realization\\ItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:12:29.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataLayerDI.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\DataLayerDI.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\DataLayerDI.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\DataLayerDI.cs",
+              "RelativeToolTip": "DataLayer\\Data\\DataLayerDI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:37:41.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "DataLayer\\Data\\DbInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T07:47:01.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "DataLayer\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\DataSeeder.cs",
+              "RelativeToolTip": "DataLayer\\DataSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T09:15:27.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240802114951_MigrationAfterTaskNumberSix.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\Migrations\\20240802114951_MigrationAfterTaskNumberSix.cs",
+              "RelativeDocumentMoniker": "EntityFramework\\Migrations\\20240802114951_MigrationAfterTaskNumberSix.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\Migrations\\20240802114951_MigrationAfterTaskNumberSix.cs",
+              "RelativeToolTip": "EntityFramework\\Migrations\\20240802114951_MigrationAfterTaskNumberSix.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAgwD8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T11:49:51.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240714215237_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\Migrations\\20240714215237_InitialMigration.cs",
+              "RelativeDocumentMoniker": "EntityFramework\\Migrations\\20240714215237_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\Migrations\\20240714215237_InitialMigration.cs",
+              "RelativeToolTip": "EntityFramework\\Migrations\\20240714215237_InitialMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:52:37.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\Program.cs",
+              "RelativeDocumentMoniker": "EntityFramework\\Program.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\Program.cs",
+              "RelativeToolTip": "EntityFramework\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:36:17.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebStorageDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\Migrations\\WebStorageDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "EntityFramework\\Migrations\\WebStorageDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\Migrations\\WebStorageDbContextModelSnapshot.cs",
+              "RelativeToolTip": "EntityFramework\\Migrations\\WebStorageDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:52:44.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Classes\\ItemService.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\Services\\Classes\\ItemService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Classes\\ItemService.cs",
+              "RelativeToolTip": "BLL\\Modles\\Services\\Classes\\ItemService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAEwDcAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:37:39.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReadItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\GetEntityModels\\ReadItemModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\GetEntityModels\\ReadItemModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\GetEntityModels\\ReadItemModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\GetEntityModels\\ReadItemModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:20:12.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SaveItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\AddEntityModels\\SaveItemModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\AddEntityModels\\SaveItemModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\AddEntityModels\\SaveItemModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\AddEntityModels\\SaveItemModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:18:43.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Entities\\Item.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entities\\Item.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Entities\\Item.cs",
+              "RelativeToolTip": "DataLayer\\Entities\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T10:05:36.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WebStorageDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Infrastructure\\WebStorageDbContext.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Infrastructure\\WebStorageDbContext.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Infrastructure\\WebStorageDbContext.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Infrastructure\\WebStorageDbContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAowB0AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T10:06:13.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Infrastructure\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Infrastructure\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Infrastructure\\UnitOfWork.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Infrastructure\\UnitOfWork.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:23:14.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\EntitiesConfigurations\\ItemConfiguration.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\EntitiesConfigurations\\ItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\EntitiesConfigurations\\ItemConfiguration.cs",
+              "RelativeToolTip": "DataLayer\\Data\\EntitiesConfigurations\\ItemConfiguration.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAArwBYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T07:17:59.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\EntitiesConfigurations\\EmployeeConfiguration.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\EntitiesConfigurations\\EmployeeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\EntitiesConfigurations\\EmployeeConfiguration.cs",
+              "RelativeToolTip": "DataLayer\\Data\\EntitiesConfigurations\\EmployeeConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T11:52:46.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ClientService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Classes\\ClientService.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\Services\\Classes\\ClientService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Classes\\ClientService.cs",
+              "RelativeToolTip": "BLL\\Modles\\Services\\Classes\\ClientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:37:25.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Classes\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\Services\\Classes\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Classes\\EmployeeService.cs",
+              "RelativeToolTip": "BLL\\Modles\\Services\\Classes\\EmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:37:35.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "EntityFramework\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\Properties\\launchSettings.json",
+              "RelativeToolTip": "EntityFramework\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-02T11:45:36.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BLL.csproj",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\BLL.csproj",
+              "RelativeDocumentMoniker": "BLL\\BLL.csproj",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\BLL.csproj",
+              "RelativeToolTip": "BLL\\BLL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-02T11:46:17.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EntityFramework.csproj",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\EntityFramework.csproj",
+              "RelativeDocumentMoniker": "EntityFramework\\EntityFramework.csproj",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\EntityFramework.csproj",
+              "RelativeToolTip": "EntityFramework\\EntityFramework.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-02T11:47:06.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BLLDI.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Extensions\\BLLDI.cs",
+              "RelativeDocumentMoniker": "BLL\\Extensions\\BLLDI.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Extensions\\BLLDI.cs",
+              "RelativeToolTip": "BLL\\Extensions\\BLLDI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:10:15.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ManagerService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Classes\\ManagerService.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\Services\\Classes\\ManagerService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Classes\\ManagerService.cs",
+              "RelativeToolTip": "BLL\\Modles\\Services\\Classes\\ManagerService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowBcAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:37:49.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\appsettings.json",
+              "RelativeDocumentMoniker": "EntityFramework\\appsettings.json",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\appsettings.json",
+              "RelativeToolTip": "EntityFramework\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-14T21:35:45.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Classes\\StorageService.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\Services\\Classes\\StorageService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Classes\\StorageService.cs",
+              "RelativeToolTip": "BLL\\Modles\\Services\\Classes\\StorageService.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAjwEoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:37:55.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Storage.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Entities\\Storage.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entities\\Storage.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Entities\\Storage.cs",
+              "RelativeToolTip": "DataLayer\\Entities\\Storage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T21:41:50.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IManagerService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Interfaces\\IManagerService.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\Services\\Interfaces\\IManagerService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Interfaces\\IManagerService.cs",
+              "RelativeToolTip": "BLL\\Modles\\Services\\Interfaces\\IManagerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:23:22.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Interfaces\\IStorageService.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\Services\\Interfaces\\IStorageService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Interfaces\\IStorageService.cs",
+              "RelativeToolTip": "BLL\\Modles\\Services\\Interfaces\\IStorageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:23:47.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Interfaces\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\Services\\Interfaces\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Interfaces\\IEmployeeService.cs",
+              "RelativeToolTip": "BLL\\Modles\\Services\\Interfaces\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:22:45.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Classes\\CategoryService.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\Services\\Classes\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Classes\\CategoryService.cs",
+              "RelativeToolTip": "BLL\\Modles\\Services\\Classes\\CategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:45:44.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IClientService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Interfaces\\IClientService.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\Services\\Interfaces\\IClientService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Interfaces\\IClientService.cs",
+              "RelativeToolTip": "BLL\\Modles\\Services\\Interfaces\\IClientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T10:22:23.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UpdateEmployeeModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\UpdateEntityModels\\UpdateEmployeeModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\UpdateEntityModels\\UpdateEmployeeModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\UpdateEntityModels\\UpdateEmployeeModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\UpdateEntityModels\\UpdateEmployeeModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:35:33.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UpdateItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\UpdateEntityModels\\UpdateItemModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\UpdateEntityModels\\UpdateItemModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\UpdateEntityModels\\UpdateItemModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\UpdateEntityModels\\UpdateItemModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:36:03.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ModelEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\ModelEntity.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\ModelEntity.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\ModelEntity.cs",
+              "RelativeToolTip": "BLL\\Modles\\ModelEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:22:08.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AutoMapperBLLProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Mapping\\AutoMapperBLLProfile.cs",
+              "RelativeDocumentMoniker": "BLL\\Mapping\\AutoMapperBLLProfile.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Mapping\\AutoMapperBLLProfile.cs",
+              "RelativeToolTip": "BLL\\Mapping\\AutoMapperBLLProfile.cs",
+              "ViewState": "AQIAAPkAAAAAAAAAAADwv0kBAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:56:29.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ReadStorageModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\GetEntityModels\\ReadStorageModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\GetEntityModels\\ReadStorageModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\GetEntityModels\\ReadStorageModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\GetEntityModels\\ReadStorageModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:20:55.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "SaveManagerModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\AddEntityModels\\SaveManagerModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\AddEntityModels\\SaveManagerModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\AddEntityModels\\SaveManagerModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\AddEntityModels\\SaveManagerModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:19:02.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\EntitiesConfigurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\EntitiesConfigurations\\CategoryConfiguration.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\EntitiesConfigurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "DataLayer\\Data\\EntitiesConfigurations\\CategoryConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:54:45.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\Services\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "BLL\\Modles\\Services\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:41:56.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:52:00.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Entities\\Category.cs",
+              "RelativeToolTip": "DataLayer\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T10:03:39.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UpdateCategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\UpdateEntityModels\\UpdateCategoryModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\UpdateEntityModels\\UpdateCategoryModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\UpdateEntityModels\\UpdateCategoryModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\UpdateEntityModels\\UpdateCategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:35:08.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Entities\\Manager.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entities\\Manager.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Entities\\Manager.cs",
+              "RelativeToolTip": "DataLayer\\Entities\\Manager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T10:03:34.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ReadManagerModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\GetEntityModels\\ReadManagerModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\GetEntityModels\\ReadManagerModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\GetEntityModels\\ReadManagerModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\GetEntityModels\\ReadManagerModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:20:45.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SaveEmployeeModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\AddEntityModels\\SaveEmployeeModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\AddEntityModels\\SaveEmployeeModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\AddEntityModels\\SaveEmployeeModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\AddEntityModels\\SaveEmployeeModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:18:27.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdateClientModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\UpdateEntityModels\\UpdateClientModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\UpdateEntityModels\\UpdateClientModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\UpdateEntityModels\\UpdateClientModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\UpdateEntityModels\\UpdateClientModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:35:19.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "SaveClientModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\AddEntityModels\\SaveClientModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\AddEntityModels\\SaveClientModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\AddEntityModels\\SaveClientModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\AddEntityModels\\SaveClientModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:18:13.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SaveCategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\AddEntityModels\\SaveCategoryModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\AddEntityModels\\SaveCategoryModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\AddEntityModels\\SaveCategoryModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\AddEntityModels\\SaveCategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:17:56.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Realization\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Realization\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Realization\\EmployeeRepository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Realization\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:55:34.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ClientConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\EntitiesConfigurations\\ClientConfiguration.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\EntitiesConfigurations\\ClientConfiguration.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\EntitiesConfigurations\\ClientConfiguration.cs",
+              "RelativeToolTip": "DataLayer\\Data\\EntitiesConfigurations\\ClientConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T19:05:34.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UpdateManagerModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\UpdateEntityModels\\UpdateManagerModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\UpdateEntityModels\\UpdateManagerModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\UpdateEntityModels\\UpdateManagerModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\UpdateEntityModels\\UpdateManagerModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:36:14.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ManagerConfigutation.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\EntitiesConfigurations\\ManagerConfigutation.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\EntitiesConfigurations\\ManagerConfigutation.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\EntitiesConfigurations\\ManagerConfigutation.cs",
+              "RelativeToolTip": "DataLayer\\Data\\EntitiesConfigurations\\ManagerConfigutation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T07:17:56.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "StorageConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\EntitiesConfigurations\\StorageConfiguration.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\EntitiesConfigurations\\StorageConfiguration.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\EntitiesConfigurations\\StorageConfiguration.cs",
+              "RelativeToolTip": "DataLayer\\Data\\EntitiesConfigurations\\StorageConfiguration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAjwBIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T07:17:52.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Entities\\IEntity.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entities\\IEntity.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Entities\\IEntity.cs",
+              "RelativeToolTip": "DataLayer\\Entities\\IEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T10:03:51.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entities\\Employee.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Entities\\Employee.cs",
+              "RelativeToolTip": "DataLayer\\Entities\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T10:05:29.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Entities\\Client.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Entities\\Client.cs",
+              "RelativeToolTip": "DataLayer\\Entities\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T10:05:19.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "UpdateStorageModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\UpdateEntityModels\\UpdateStorageModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\UpdateEntityModels\\UpdateStorageModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\UpdateEntityModels\\UpdateStorageModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\UpdateEntityModels\\UpdateStorageModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:36:25.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:19:55.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ReadEmployeeModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\GetEntityModels\\ReadEmployeeModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\GetEntityModels\\ReadEmployeeModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\GetEntityModels\\ReadEmployeeModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\GetEntityModels\\ReadEmployeeModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:20:00.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ReadClientModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\GetEntityModels\\ReadClientModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\GetEntityModels\\ReadClientModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\GetEntityModels\\ReadClientModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\GetEntityModels\\ReadClientModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:19:50.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ReadCategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\GetEntityModels\\ReadCategoryModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\GetEntityModels\\ReadCategoryModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\GetEntityModels\\ReadCategoryModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\GetEntityModels\\ReadCategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:19:38.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "SaveStorageModel.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\AddEntityModels\\SaveStorageModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Modles\\AddEntityModels\\SaveStorageModel.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\BLL\\Modles\\AddEntityModels\\SaveStorageModel.cs",
+              "RelativeToolTip": "BLL\\Modles\\AddEntityModels\\SaveStorageModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T08:19:12.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "IClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IClientRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Interfaces\\IClientRepository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IClientRepository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\IClientRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:52:20.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T07:29:54.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IStorageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IStorageRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Interfaces\\IStorageRepository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IStorageRepository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\IStorageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:53:09.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "StorageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Realization\\StorageRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Realization\\StorageRepository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Realization\\StorageRepository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Realization\\StorageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:56:20.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Realization\\Repository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Realization\\Repository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Realization\\Repository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Realization\\Repository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAswCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T07:37:43.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Realization\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Realization\\ClientRepository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Realization\\ClientRepository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Realization\\ClientRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:55:03.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IManagerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IManagerRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Interfaces\\IManagerRepository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IManagerRepository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\IManagerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:53:00.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Realization\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Realization\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Realization\\CategoryRepository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Realization\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:54:32.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Interfaces\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Interfaces\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:52:49.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ManagerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Realization\\ManagerRepository.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Data\\Repositories\\Realization\\ManagerRepository.cs",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\Data\\Repositories\\Realization\\ManagerRepository.cs",
+              "RelativeToolTip": "DataLayer\\Data\\Repositories\\Realization\\ManagerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T08:55:58.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "EntityFramework",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\EntityFramework.csproj",
+              "RelativeDocumentMoniker": "EntityFramework\\EntityFramework.csproj",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\EntityFramework\\EntityFramework.csproj",
+              "RelativeToolTip": "EntityFramework\\EntityFramework.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-15T10:03:12.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "DataLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\DataLayer.csproj",
+              "RelativeDocumentMoniker": "DataLayer\\DataLayer.csproj",
+              "ToolTip": "C:\\Users\\Okarpets\\NG_2024_C-_Karpets\\Lection 6\\task 1\\DataLayer\\DataLayer.csproj",
+              "RelativeToolTip": "DataLayer\\DataLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-14T21:48:53.767Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
