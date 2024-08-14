@@ -1,0 +1,145 @@
+header {
+    margin: 30px 50px 30px 110px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color__base);
+    position: absolute;
+    width: calc(100% - 160px);
+}
+
+#logo {
+    height: fit-content;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+#logo__title {
+    font-family: "Akshar", sans-serif;
+    font-weight: 500;
+}
+
+#logo__icon {
+    height: 100%;
+    width: 54px;
+    fill: var(--text-color__base);
+}
+
+#navigation__title {
+    text-align: right;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+
+#navigation__panel > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+#navigation__panel > ul > li {
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+#title {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+#image__accent {
+    --image-height: 60vh;
+    position: absolute;
+    height: var(--image-height);
+    z-index: -5;
+    right: 120px;
+    top: calc(50% - var(--image-height) / 2.3)
+}
+
+#image > #image__background {
+    background-image: url("../template/content/title.png");
+    background-size: 1200px;
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -10;
+}
+
+#text {
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    font-family: "Holtwood One SC";
+    z-index: -5;
+
+    --image-height: 60vh;
+    margin-top: calc(50% - var(--image-height));
+    color: var(--text-color__base);
+    left: 7.5%;
+}
+
+#tagline_text {
+    position: absolute;
+    font-family: "Economica", sans-serif;
+    font-size: 2rem;
+
+    border: dashed var(--text-color__base);;
+    padding: 5px 10px 5px 10px;
+    border-width: medium;
+}
+
+#tagline_burger {
+    margin: 25px 0px 0px 0px;
+    position: relative;
+    font-size: 10rem;
+}
+
+#tagline_week {
+    margin: -25px 0px 0px 0px;
+    position: relative;
+    font-size: 5rem;
+}
+
+.text_background {
+    text-shadow: whitesmoke 5px 5px;
+}
+
+#red_circle {
+    --image-height: 60vh;
+    position: absolute;
+    z-index: -5;
+    right: 600px;
+    top: 65%;
+}
+
+#circle_border {
+    border: white dashed;
+    border-radius: 100%;
+    outline-offset: 23px;
+}
+
+#red_circle_text {
+    left: 18%;
+    top: 5%;
+    position: absolute;
+    text-align: center;
+    font-size: 2.9rem;
+    color: white;
+    font-family: "Economica", sans-serif;
+}
+
+#price_one {
+    left: -15px;
+    position: relative;
+}
+
+#price_two {
+    margin: -65px 0px -15px 65px;
+    position: relative;
+    font-size: 2rem;
+}
