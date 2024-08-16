@@ -94,9 +94,20 @@ header {
 }
 
 #text_burger {
-    margin: 25px 0px 0px 0px;
     position: relative;
     font-size: 10rem;
+}
+
+#text_burger::after {
+    content: "";
+    display: block;
+    margin-top: -18%;
+}
+
+#text_burger::before {
+    content: "";
+    display: block;
+    margin-top: 2%;
 }
 
 #text_week {
@@ -128,7 +139,7 @@ header {
     border-radius: 50%;
 }
 
-#image-red-circle-discount-info {
+#image-red-circle_discount-info {
     left: 18%;
     top: 5%;
     position: absolute;
@@ -138,13 +149,14 @@ header {
     font-family: "Economica", sans-serif;
 }
 
-#image-red-circle-discount-info_part_1 {
-    left: -15px;
-    position: relative;
+.mini {
+    font-size: 25px;
+    display: inline;
+    margin-left: -10px;
 }
 
-#image-red-circle-discount-info_part_2 {
-    margin: -65px 0px -15px 65px;
-    position: relative;
-    font-size: 2.3rem;
+.mini:after {
+    content: "";
+    display: block;
+    margin-top: -25px;
 }
