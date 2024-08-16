@@ -7,6 +7,10 @@ header {
     width: calc(100% - 160px);
 }
 
+input {
+    cursor: grab;
+}
+
 #logo {
     height: fit-content;
     padding: 6px;
@@ -94,9 +98,20 @@ header {
 }
 
 #text_burger {
-    margin: 25px 0px 0px 0px;
     position: relative;
     font-size: 10rem;
+}
+
+#text_burger::after {
+    content: "";
+    display: block;
+    margin-top: -18%;
+}
+
+#text_burger::before {
+    content: "";
+    display: block;
+    margin-top: 2%;
 }
 
 #text_week {
@@ -119,35 +134,35 @@ header {
 
 #image-red-circle::after {
     content: "";
-    width: 85%;
-    height: 85%;
     position: absolute;
     top: 5%;
     left: 7.5%;
+    width: 85%;
+    height: 85%;
     border: 5px dashed white;
     border-radius: 50%;
 }
 
-#image-red-circle-discount-info {
-    position: absolute;
+#image-red-circle_discount-info {
     left: 18%;
     top: 5%;
-    font-family: "Economica", sans-serif;
-    font-size: 4rem;
+    position: absolute;
     text-align: center;
+    font-size: 4rem;
     color: white;
-    
+    font-family: "Economica", sans-serif;
 }
 
-#image-red-circle-discount-info_part_1 {
-    position: relative;
-    left: -15px;
+.nums {
+    font-size: 25px;
+    display: inline;
+    margin-left: -10px;
 }
 
-#image-red-circle-discount-info_part_2 {
-    position: relative;
-    margin: -65px 0px -15px 65px;
-    font-size: 2.3rem;
+.nums:after {
+    content: "";
+    display: block;
+    margin-top: -25px;
 }
 
 .body-sector_image {
@@ -160,44 +175,27 @@ header {
     font-family: "Economica", sans-serif;
     display: flex;
     justify-content: center;
+    color: white;
     margin-top: 5%;
     gap: 62.5px;
 }
 
-#body-sector_section_2 {
-    display: flex;
-    flex-direction: column;
-    gap: 56px;
-}
-
-#body-sector_section_1_text {
-    position: absolute;
-    top: 112%;
-    left: 12%;
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-}
-
-#body-sector_section_2_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-top: -75%;
-    margin-left: 25px;
-    gap: 200px;
-}
-
-.body-sector_big_text_style {
+.max {
     font-size: 4rem;
     font-weight: 800;
     z-index: -4;
 }
 
-.body-sector_min_text_style {
+.min {
     font-size: 2rem;
     font-weight: 700;
     z-index: -4;
+}
+
+.min::after {
+    content: "";
+    display: block;
+    margin-top: -25px;
 }
 
 .body-sector_text_margin p {
@@ -236,9 +234,15 @@ header {
     gap: -274px;
 }
 
-#strapline-sector_text_1 {
+#strapline-sector_header {
     font-family: "Holtwood One SC";
     font-size: 4rem;
+}
+
+#strapline-sector_header::after {
+    content: "";
+    display: block;
+    margin-top: -25px;
 }
 
 #strapline-sector_text_2 {
@@ -291,9 +295,86 @@ header {
     word-spacing: 0.25em;
 }
 
+.body-combo-box-items_big_text::after {
+    content: "";
+    display: block;
+    margin-top: -25px;
+}
+
 .body-combo-box-items_min_text {
     text-align: center;
     font-size: 2em;
     font-weight: 500;
     letter-spacing: -1px;
+}
+
+.body-combo-box-items_text_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-sector_container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 25% 5.5%;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "body-sector_container-elem-1 body-sector_container-elem-2"
+        "body-sector_container-elem-1 body-sector_container-elem-3";
+}
+
+.body-sector_container-elem-1 {
+    grid-area: body-sector_container-elem-1;
+    position: relative;
+}
+
+.body-sector_container-elem-2 {
+    grid-area: body-sector_container-elem-2;
+    position: relative;
+}
+
+.body-sector_container-elem-3 {
+    grid-area: body-sector_container-elem-3;
+    position: relative;
+    margin-top: -13.75%;
+}
+
+.body-sector_image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.body-sector_text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.body-sector_text_margin {
+    margin: 0;
+}
+
+.body-sector_text span.min {
+    display: block;
+    font-size: 3.5em;
+}
+
+.body-sector_text span.min::after {
+    display: block;
+    content: "";
+    margin-top: -10%;
+    z-index: 1;
+}
+
+.body-sector_text span.max {
+    display: block;
+    font-size: 1.5em;
 }

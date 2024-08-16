@@ -38,9 +38,11 @@
 
     <div id="title">
         <div id="text">
-            <h3 id="text_strapline">IT IS A GOOD TIME FOR THE GREAT TASTE OF BURGERS</h3>
-            <h2 class="text_background" id="text_burger">BURGER</h2>
-            <h3 class="text_background" id="text_week">WEEK</h3>
+            <p>
+                <span id="text_strapline">IT IS A GOOD TIME FOR THE GREAT TASTE OF BURGERS</span>
+                <span class="text_background" id="text_burger">BURGER</span>
+                <span class="text_background" id="text_week">WEEK</span>
+            </p>
         </div>
         <div id="image">
             <img id="image__accent" src="template/content/burger_3.png" alt="title">
@@ -49,10 +51,12 @@
                     <circle fill="#d11523" cx="18" cy="18" r="18">
                     </circle>
                 </svg>
-                <div id="image-red-circle-discount-info">
-                    <p id="image-red-circle-discount-info_part_1">$5.</p>
-                    <p id="image-red-circle-discount-info_part_2">49</p>
-                    <p>O N L Y</p>
+                <div id="image-red-circle_discount-info">
+                    <p id="image-red-circle-discount-info">
+                        <span>$5.</span>
+                        <span class="image-red-circle-discount-info nums">49</span>
+                        <span class="image-red-circle-discount-info next">O N L Y</span>
+                    </p>
                 </div>
             </div>
             <div id="image__background"></div>
@@ -60,22 +64,32 @@
     </div>
 
     <div id="body-sector">
-        <img class="body-sector_image" src="template/content/section_1.png" alt="section_1">
-        <div id="body-sector_section_1_text" class="body-sector_text_margin">
-            <p class="body-sector_min_text_style">TRY IT TODAY</p>
-            <p class="body-sector_big_text_style">MOST POPULAR BURGER</p>
-        </div>
-        <div id="body-sector_section_2">
-            <img class="body-sector_image" src="template/content/section_2.png" alt="section_2">
-            <img class="body-sector_image" src="template/content/section_3.png" alt="section_3">
-            <div id="body-sector_section_2_text">
-                <div id="body-sector_section_2_text_1" class="body-sector_text_margin">
-                    <p class="body-sector_min_text_style">TRY IT TODAY</p>
-                    <p class="body-sector_big_text_style">MORE FUN MORE TASTE</p>
+        <div class="body-sector_container">
+            <div class="body-sector_container-elem-1">
+                <img class="body-sector_image" src="template/content/section_1.png" alt="section_1">
+                <div class="body-sector_text">
+                    <p class="body-sector_text_margin">
+                        <span class="body-sector min">TRY IT TODAY</span>
+                        <span class="body-sector max">MOST POPULAR BURGER</span>
+                    </p>
                 </div>
-                <div id="body-sector_section_2_text_2" class="body-sector_text_margin">
-                    <p class="body-sector_min_text_style">TRY IT TODAY</p>
-                    <p class="body-sector_big_text_style">FRESH & CHILI</p>
+            </div>
+            <div class="body-sector_container-elem-2">
+                <img class="body-sector_image" src="template/content/section_2.png" alt="section_2">
+                <div class="body-sector_text">
+                    <p class="body-sector_text_margin">
+                        <span class="body-sector min">TRY IT TODAY</span>
+                        <span class="body-sector max">MORE FUN MORE TASTE</span>
+                    </p>
+                </div>
+            </div>
+            <div class="body-sector_container-elem-3">
+                <img class="body-sector_image" src="template/content/section_3.png" alt="section_3">
+                <div class="body-sector_text elem-3">
+                    <p class="body-sector_text_margin">
+                        <span class="body-sector min">TRY IT TODAY</span>
+                        <span class="body-sector max">FRESH & CHILI</span>
+                    </p>
                 </div>
             </div>
         </div>
@@ -84,32 +98,39 @@
     <div id="strapline-sector">
         <input type="button" href="#" value="ALWAYS TASTY BURGER">
         <div id="strapline-sector_text">
-            <p id="strapline-sector_text_1">CHOSE & ENJOY</p>
-            <p id="strapline-sector_text_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat molestiae atque doloribus. Quaerat rerum saepe ut voluptatibus eos perspiciatis dolorum hic quod illo ipsa iusto nesciunt tenetur voluptates velit beatae asperiores, impedit commodi? Odio esse quae a. Soluta, tempora officiis.</p>
+            <p>
+                <span id="strapline-sector_header">CHOSE & ENJOY</span>
+                <span id="strapline-sector_text_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat molestiae atque doloribus. Quaerat rerum saepe ut voluptatibus eos perspiciatis dolorum hic quod illo ipsa iusto nesciunt tenetur voluptates velit beatae asperiores, impedit commodi? Odio esse quae a. Soluta, tempora officiis.</span>
+            </p>
         </div>
     </div>
 
     <div id="body-combo-box">
         <div class="body-combo-box-items">
             <img class="body-combo-box-items_image" src="template/content/burger_1.png" alt="body-combo-box_alt">
-            <p class="body-combo-box-items_big_text">LOREM IPSUM DOLOR</p>
-            <p class="body-combo-box-items_min_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, ipsam!</p>
+            <p class="body-combo-box-items_text_container">
+                <span class="body-combo-box-items_big_text">LOREM IPSUM DOLOR</span>
+                <span class="body-combo-box-items_min_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, ipsam!</span>
+            </p>
             <input type="button" href="#" value="ALWAYS TASTY BURGER">
         </div>
         <div class="body-combo-box-items">
             <img class="body-combo-box-items_image" src="template/content/burger_2.png" alt="body-combo-box_alt">
-            <p class="body-combo-box-items_big_text">LOREM IPSUM DOLOR</p>
-            <p class="body-combo-box-items_min_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, ipsam!</p>
+            <p class="body-combo-box-items_text_container">
+                <span class="body-combo-box-items_big_text">LOREM IPSUM DOLOR</span>
+                <span class="body-combo-box-items_min_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, ipsam!</span>
+            </p>
             <input type="button" href="#" value="ALWAYS TASTY BURGER">
         </div>
         <div class="body-combo-box-items">
             <img class="body-combo-box-items_image" src="template/content/burger_3.png" alt="body-combo-box_alt">
-            <p class="body-combo-box-items_big_text">LOREM IPSUM DOLOR</p>
-            <p class="body-combo-box-items_min_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, ipsam!</p>
+            <p class="body-combo-box-items_text_container">
+                <span class="body-combo-box-items_big_text">LOREM IPSUM DOLOR</span>
+                <span class="body-combo-box-items_min_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, ipsam!</span>
+            </p>
             <input type="button" href="#" value="ALWAYS TASTY BURGER">
         </div>
     </div>
-    
 </main>
 
 </body>
