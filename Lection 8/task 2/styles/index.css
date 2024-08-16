@@ -1,0 +1,299 @@
+header {
+    margin: 30px 50px 30px 110px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color__base);
+    position: absolute;
+    width: calc(100% - 160px);
+}
+
+#logo {
+    height: fit-content;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+#logo__title {
+    font-family: "Akshar", sans-serif;
+    font-weight: 500;
+}
+
+#logo__icon {
+    height: 100%;
+    width: 54px;
+    fill: var(--text-color__base);
+}
+
+#navigation__title {
+    text-align: right;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+
+#navigation__panel > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+#navigation__panel > ul > li {
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+#title {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+#image__accent {
+    --image-height: 60vh;
+    position: absolute;
+    height: var(--image-height);
+    z-index: -5;
+    right: 120px;
+    top: calc(50% - var(--image-height) / 2.3)
+}
+
+#image > #image__background {
+    background-image: url("../template/content/title.png");
+    background-size: 1200px;
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -10;
+}
+
+#text {
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    font-family: "Holtwood One SC";
+    z-index: -5;
+
+    --image-height: 60vh;
+    margin-top: calc(50% - var(--image-height));
+    color: var(--text-color__base);
+    left: 7.5%;
+}
+
+#text_strapline {
+    position: absolute;
+    font-family: "Economica", sans-serif;
+    font-size: 2rem;
+
+    border: dashed var(--text-color__base);;
+    padding: 5px 10px 5px 10px;
+    border-width: medium;
+}
+
+#text_burger {
+    margin: 25px 0px 0px 0px;
+    position: relative;
+    font-size: 10rem;
+}
+
+#text_week {
+    margin: -25px 0px 0px 0px;
+    position: relative;
+    font-size: 5rem;
+}
+
+.text_background {
+    text-shadow: whitesmoke 5px 5px;
+}
+
+#image-red-circle {
+    --image-height: 60vh;
+    position: absolute;
+    z-index: -5;
+    right: 600px;
+    top: 65%;
+}
+
+#image-red-circle::after {
+    content: "";
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    top: 5%;
+    left: 7.5%;
+    border: 5px dashed white;
+    border-radius: 50%;
+}
+
+#image-red-circle-discount-info {
+    position: absolute;
+    left: 18%;
+    top: 5%;
+    font-family: "Economica", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    
+}
+
+#image-red-circle-discount-info_part_1 {
+    position: relative;
+    left: -15px;
+}
+
+#image-red-circle-discount-info_part_2 {
+    position: relative;
+    margin: -65px 0px -15px 65px;
+    font-size: 2.3rem;
+}
+
+.body-sector_image {
+    width: 75vh;
+    border-radius: 25px;
+    z-index: -5;
+}
+
+#body-sector {
+    font-family: "Economica", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 62.5px;
+}
+
+#body-sector_section_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+#body-sector_section_1_text {
+    position: absolute;
+    top: 112%;
+    left: 12%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+#body-sector_section_2_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: -75%;
+    margin-left: 25px;
+    gap: 200px;
+}
+
+.body-sector_big_text_style {
+    font-size: 4rem;
+    font-weight: 800;
+    z-index: -4;
+}
+
+.body-sector_min_text_style {
+    font-size: 2rem;
+    font-weight: 700;
+    z-index: -4;
+}
+
+.body-sector_text_margin p {
+    color: rgb(255, 255, 255);
+    margin-bottom: -30px;
+}
+
+#strapline-sector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Economica", sans-serif;
+    padding: 75px;
+    gap: 75px;
+}
+
+#strapline-sector input {
+    color: var(--text-color__base);
+    background-color: rgb(255, 191, 17);
+    border: none;
+    font-weight: bolder;
+    font-size: 2em;
+    width: 10em;
+    height: 2.5em;
+}
+
+#strapline-sector input:hover
+{
+    background-color: #d11523;
+}
+
+#strapline-sector_text {
+    font-weight: bold;
+    color: var(--text-color__base);
+    text-align: center;
+    gap: -274px;
+}
+
+#strapline-sector_text_1 {
+    font-family: "Holtwood One SC";
+    font-size: 4rem;
+}
+
+#strapline-sector_text_2 {
+    font-family: "Economica", sans-serif;
+    font-size: 1.5rem;
+}
+
+#body-combo-box {
+    margin: 0% 10% 0% 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    gap: 100px;
+    margin-bottom: 5em;
+}
+
+.body-combo-box-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Economica", sans-serif;
+    color: var(--text-color__base);
+}
+
+.body-combo-box-items input {
+    margin-top: 25px;
+    color: white;
+    background-color: #d11523;
+    border: none;
+    font-weight: bolder;
+    font-size: 2em;
+    width: 10em;
+    height: 2.5em;
+}
+
+.body-combo-box-items input:hover {
+    background-color: rgb(255, 191, 17);
+}
+
+.body-combo-box-items_image {
+    width: 425px;
+    height: 425px;
+}
+
+.body-combo-box-items_big_text {
+    text-align: center;
+    font-size: 3.7em;
+    font-weight: 900;
+    letter-spacing: -3px;
+    word-spacing: 0.25em;
+}
+
+.body-combo-box-items_min_text {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
