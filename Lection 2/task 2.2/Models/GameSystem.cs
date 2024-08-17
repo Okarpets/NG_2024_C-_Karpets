@@ -7,14 +7,14 @@ public class GameSystem
         return Games.FirstOrDefault(x => x.Id == OrderedId);
     }
 
-    public Dictionary<string, decimal> GetListByPriceRange(List<Game> Games, decimal OrderPriceMin, decimal OrderPriceMax)
+    public List<string> GetListByPriceRange(List<Game> Games, decimal OrderPriceMin, decimal OrderPriceMax)
     {
-        Dictionary<string, decimal> GameAndPrice = new Dictionary<string, decimal>();
+        List<string> GameAndPrice = new List<string>();
         foreach (var Game in Games)
         {
             if (Game.Price >= OrderPriceMin && Game.Price <= OrderPriceMax)
             {
-                GameAndPrice.Add(Game.Name, Game.Price);
+                GameAndPrice.Add(Game.Name);
             }
         }
         return GameAndPrice;
@@ -32,30 +32,72 @@ public class GameSystem
     public List<string> GetUniqueCategoriesFromGameList(List<Game> Games)
     {
         List<string> Result = new List<string>();
-        var GenresInGame = from g in Games select g.Genres;
-        foreach (List<Genre> AllGanres in GenresInGame)
-        {
-            foreach (Genre Ganre in AllGanres)
-            {
-                Result.Add(Ganre.Name);
-            }
-        }
+        Result.AddRange(Games.Select(g => g.Category));
         return Result.GroupBy(s => s).Where(g => g.Count() == 1).Select(g => g.Key).ToList();
     }
 
-    public List<string> GetFilterGamesByCategoryAndGenres(List<Game> Games, List<string> Genres)
+    public List<string> GetFilterGamesByCategoryAndGenres(List<Game> games, List<string> genres, string category)
     {
-        List<string> Result = new List<string>();
-        var AllGames = from g in Games select g.Name;
-        foreach (Game game in Games)
+        var result = new List<string>();
+        foreach (var game in games)
         {
-            var HasIntersection = !Genres.Except(game.Genres.Select(x => x.Name)).Any();
-            if (HasIntersection == true)
+            if (game.Category == category && !genres.Except(game.Genres.Select(g => g.Name)).Any())
             {
-                Result.Add(game.Name);
+                result.Add(game.Name);
             }
         }
-        return Result;
+        return result;
+    }
+
+    public void Pagination(List<string> Games)
+    {
+        List<List<string>> Page = new List<List<string>>();
+
+        for (int Index = 0; Index < Games.Count; Index += 5)
+        {
+            List<string> part = Games.GetRange(Index, Math.Min(5, Games.Count - Index));
+            Page.Add(part);
+        }
+
+        int PagesCount = ((int)Math.Round(Games.Count() / 5.0) * 5) / 5;
+
+        if (PagesCount == 0)
+        {
+            PagesCount = 1;
+        }
+
+        if (Page.Count == 0)
+        {
+            Console.WriteLine("These games don't exist in list");
+            return;
+        }
+
+        Console.WriteLine($"PAGES HAVE: {PagesCount}");
+
+        while (true)
+        {
+
+            Console.WriteLine("Enter page for watching");
+            int OrderPage = Convert.ToInt32(Console.ReadLine());
+            if (OrderPage < 0 || OrderPage > PagesCount)
+            {
+                Console.WriteLine("This page doesn't exist");
+                continue;
+            }
+
+            foreach (string part in Page[OrderPage - 1])
+            {
+                Console.WriteLine(part);
+            }
+
+            Console.WriteLine("Exit or watch another pages? (E/ )");
+            char OrderExit = Convert.ToChar(Console.ReadLine());
+
+            if (OrderExit == 'e' || OrderExit == 'E')
+            {
+                break;
+            }
+        }
     }
 
     public string Commands()

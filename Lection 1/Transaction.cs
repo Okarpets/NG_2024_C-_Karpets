@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Lection_1
+﻿namespace Lection_1
 {
     public class Transaction
     {
-        private decimal Amount;
-        private decimal Id;
-        private string TimeInfo;
+        private decimal Amount { get; set; }
+        private decimal Id { get; set; }
+        private string TimeInfo { get; set; }
         public Transaction()
         {
             GetTime();
@@ -22,7 +15,7 @@ namespace Lection_1
             TimeInfo = DateTime.Now.ToString("dd/MM/yyyy");
         }
 
-        public void RecordTransaction(decimal Amount, decimal Id) 
+        public void RecordTransaction(decimal Amount, decimal Id)
         {
             Id = Id;
             Amount = Amount;
