@@ -1,0 +1,160 @@
+header {
+    margin: 30px 50px 30px 110px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color__base);
+    position: absolute;
+    width: calc(100% - 160px);
+}
+
+input {
+    cursor: grab;
+}
+
+#logo {
+    height: fit-content;
+    padding: 6px;
+    left: 0%;
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+#logo__title {
+    font-family: "Akshar", sans-serif;
+    font-weight: 500;
+}
+
+#logo__icon {
+    height: 100%;
+    width: 54px;
+    fill: var(--text-color__base);
+}
+
+#navigation__title {
+    text-align: right;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+
+#navigation__panel > ul {
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    right: 0%;
+    column-gap: 30px;
+}
+
+#navigation__panel > ul > li {
+    font-family: "Baloo 2", sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+#title {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+#image__accent {
+    --image-height: 60vh;
+    position: absolute;
+    height: var(--image-height);
+    z-index: -5;
+    right: 120px;
+    top: calc(50% - var(--image-height) / 2.3)
+}
+
+#image > #image__background {
+    background-image: url("../template/content/title.png");
+    background-size: 1200px;
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -10;
+}
+
+#text {
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    font-family: "Holtwood One SC";
+    z-index: -5;
+
+    --image-height: 60vh;
+    margin-top: calc(50% - var(--image-height));
+    color: var(--text-color__base);
+    left: 7.5%;
+}
+
+#text_strapline {
+    position: absolute;
+    display: block;
+    font-family: "Economica", sans-serif;
+    font-size: 2rem;
+
+    border: dashed var(--text-color__base);;
+    padding: 5px 10px 5px 10px;
+    border-width: medium;
+}
+
+#text_burger {
+    position: relative;
+    display: block;
+    margin-top: 25px;
+    font-size: 10rem;
+}
+
+#text_week {
+    margin: -25px 0px 0px 0px;
+    position: relative;
+    display: block;
+    font-size: 5rem;
+}
+
+.text_background {
+    text-shadow: whitesmoke 5px 5px;
+}
+
+#image-red-circle {
+    --image-height: 60vh;
+    position: absolute;
+    z-index: -5;
+    right: 600px;
+    top: 65%;
+}
+
+#image-red-circle::after {
+    content: "";
+    position: absolute;
+    top: 5%;
+    left: 7.5%;
+    width: 85%;
+    height: 85%;
+    border: 5px dashed white;
+    border-radius: 50%;
+}
+
+#image-red-circle_discount-info {
+    left: 18%;
+    top: 5%;
+    position: absolute;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    font-family: "Economica", sans-serif;
+}
+
+.nums {
+    font-size: 25px;
+    display: inline;
+    margin-left: -10px;
+}
+
+.only {
+    display: block;
+    margin-top: -25%;
+}
