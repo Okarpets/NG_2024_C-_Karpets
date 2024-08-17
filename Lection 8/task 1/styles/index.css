@@ -7,9 +7,14 @@ header {
     width: calc(100% - 160px);
 }
 
+input {
+    cursor: grab;
+}
+
 #logo {
     height: fit-content;
     padding: 6px;
+    left: 0%;
     display: flex;
     align-items: center;
     column-gap: 14px;
@@ -33,9 +38,11 @@ header {
 }
 
 #navigation__panel > ul {
+    position: absolute;
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    right: 0%;
     column-gap: 30px;
 }
 
@@ -85,6 +92,7 @@ header {
 
 #text_strapline {
     position: absolute;
+    display: block;
     font-family: "Economica", sans-serif;
     font-size: 2rem;
 
@@ -94,14 +102,16 @@ header {
 }
 
 #text_burger {
-    margin: 25px 0px 0px 0px;
     position: relative;
+    display: block;
+    margin-top: 25px;
     font-size: 10rem;
 }
 
 #text_week {
     margin: -25px 0px 0px 0px;
     position: relative;
+    display: block;
     font-size: 5rem;
 }
 
@@ -128,7 +138,7 @@ header {
     border-radius: 50%;
 }
 
-#image-red-circle-discount-info {
+#image-red-circle_discount-info {
     left: 18%;
     top: 5%;
     position: absolute;
@@ -138,13 +148,13 @@ header {
     font-family: "Economica", sans-serif;
 }
 
-#image-red-circle-discount-info_part_1 {
-    left: -15px;
-    position: relative;
+.nums {
+    font-size: 25px;
+    display: inline;
+    margin-left: -10px;
 }
 
-#image-red-circle-discount-info_part_2 {
-    margin: -65px 0px -15px 65px;
-    position: relative;
-    font-size: 2.3rem;
+.only {
+    display: block;
+    margin-top: -25%;
 }

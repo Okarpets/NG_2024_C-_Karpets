@@ -14,6 +14,7 @@ input {
 #logo {
     height: fit-content;
     padding: 6px;
+    left: 0%;
     display: flex;
     align-items: center;
     column-gap: 14px;
@@ -37,9 +38,11 @@ input {
 }
 
 #navigation__panel > ul {
+    position: absolute;
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    right: 0%;
     column-gap: 30px;
 }
 
@@ -89,6 +92,7 @@ input {
 
 #text_strapline {
     position: absolute;
+    display: block;
     font-family: "Economica", sans-serif;
     font-size: 2rem;
 
@@ -99,24 +103,15 @@ input {
 
 #text_burger {
     position: relative;
+    display: block;
+    margin-top: 25px;
     font-size: 10rem;
-}
-
-#text_burger::after {
-    content: "";
-    display: block;
-    margin-top: -18%;
-}
-
-#text_burger::before {
-    content: "";
-    display: block;
-    margin-top: 2%;
 }
 
 #text_week {
     margin: -25px 0px 0px 0px;
     position: relative;
+    display: block;
     font-size: 5rem;
 }
 
@@ -159,10 +154,9 @@ input {
     margin-left: -10px;
 }
 
-.nums:after {
-    content: "";
+.only {
     display: block;
-    margin-top: -25px;
+    margin-top: -25%;
 }
 
 .body-sector_image {
@@ -181,6 +175,7 @@ input {
 }
 
 .max {
+    margin-top: -10%;
     font-size: 4rem;
     font-weight: 800;
     z-index: -4;
@@ -190,12 +185,6 @@ input {
     font-size: 2rem;
     font-weight: 700;
     z-index: -4;
-}
-
-.min::after {
-    content: "";
-    display: block;
-    margin-top: -25px;
 }
 
 .body-sector_text_margin p {
@@ -236,13 +225,8 @@ input {
 
 #strapline-sector_header {
     font-family: "Holtwood One SC";
-    font-size: 4rem;
-}
-
-#strapline-sector_header::after {
-    content: "";
     display: block;
-    margin-top: -25px;
+    font-size: 4rem;
 }
 
 #strapline-sector_text_2 {
@@ -293,12 +277,6 @@ input {
     font-weight: 900;
     letter-spacing: -3px;
     word-spacing: 0.25em;
-}
-
-.body-combo-box-items_big_text::after {
-    content: "";
-    display: block;
-    margin-top: -25px;
 }
 
 .body-combo-box-items_min_text {
@@ -365,13 +343,6 @@ input {
 .body-sector_text span.min {
     display: block;
     font-size: 3.5em;
-}
-
-.body-sector_text span.min::after {
-    display: block;
-    content: "";
-    margin-top: -10%;
-    z-index: 1;
 }
 
 .body-sector_text span.max {
