@@ -61,12 +61,13 @@ function addBoard() {
     
     boards.append(board)
     changeTitle()
+    dargNdrop()
+
     const allBoardsCount = document.querySelectorAll('.boards_item').length
     if (allBoardsCount == 4) {
         boardCreateBtn.style.display = 'none'
     } else {
         board.append(count)
-        dargNdrop()
     }
     
 }
@@ -79,6 +80,8 @@ function changeTitle() {
     titles.forEach( title => {
         title.addEventListener('click', e => e.target.textContent = '')
     })
+
+    dargNdrop()
 }
 
 changeTitle()
@@ -131,4 +134,5 @@ function dargNdrop() {
 
     }
 }
+
 dargNdrop()
