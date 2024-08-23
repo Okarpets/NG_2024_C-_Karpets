@@ -5,16 +5,16 @@ function addTask() {
     const addBtn = document.querySelector('.buttons_add-item')
     const delBtn = document.querySelector('.buttons_del-item')
 
-    const boardAddBtn = document.querySelector('.add_button')
+    const cardAddBtn = document.querySelector('.add_button')
 
     const textarea = document.querySelector('.textarea')
     const form = document.querySelector('.form')
 
     let value
     
-    boardAddBtn.addEventListener('click', () => {
+    cardAddBtn.addEventListener('click', () => {
         form.style.display = 'block'
-        boardAddBtn.style.display = 'none'
+        cardAddBtn.style.display = 'none'
         addBtn.style.display = 'none'
 
         textarea.addEventListener('input', () => {
@@ -32,7 +32,7 @@ function addTask() {
         textarea.value = ''
         value = ''
         form.style.display = 'none'
-        boardAddBtn.style.display = 'flex'
+        cardAddBtn.style.display = 'flex'
     })
 
     addBtn.addEventListener('click', () => {
@@ -45,9 +45,9 @@ function addTask() {
         textarea.value = ''
         value = ''
         form.style.display = 'none'
-        boardAddBtn.style.display = 'flex'
+        cardAddBtn.style.display = 'flex'
 
-        dargNdrop()
+        dragNdrop()
     })
 }
 
@@ -61,7 +61,7 @@ function addBoard() {
     
     boards.append(board)
     changeTitle()
-    dargNdrop()
+    dragNdrop()
 
     const allBoardsCount = document.querySelectorAll('.boards_item').length
     if (allBoardsCount == 4) {
@@ -81,14 +81,14 @@ function changeTitle() {
         title.addEventListener('click', e => e.target.textContent = '')
     })
 
-    dargNdrop()
+    dragNdrop()
 }
 
 changeTitle()
 
 let draggedItem = null
 
-function dargNdrop() {
+function dragNdrop() {
     const listsItem = document.querySelectorAll('.list_item')
     const lists = document.querySelectorAll('.list')
 
@@ -135,4 +135,4 @@ function dargNdrop() {
     }
 }
 
-dargNdrop()
+dragNdrop()
