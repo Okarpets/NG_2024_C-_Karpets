@@ -1,0 +1,15 @@
+.ReorderList {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    color:rgb(0, 0, 0);
+}
+
+.ReorderItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

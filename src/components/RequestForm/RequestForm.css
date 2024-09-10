@@ -1,0 +1,24 @@
+.RequestForm button {
+  width: 160px;
+  height: 25px;
+  transition-duration: 0.4s;
+  border: none;
+  border-radius: 5px;
+}
+  
+.Submit:hover {
+  background-color: #005C53;
+  color: rgb(255, 255, 255);
+}
+
+.RemoveRequest:hover {
+  background-color: #D92525; 
+  color: white;
+}
+
+.RequestForm input{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}

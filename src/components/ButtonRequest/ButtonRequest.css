@@ -1,0 +1,12 @@
+.RequestButton {
+  width: 125px;
+  height: 50px;
+  transition-duration: 0.4s;
+  border: none;
+  border-radius: 15px;
+}
+
+.RequestButton:hover {
+  background-color: #005C53;
+  color: white;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+.ItemSpan {
+    font-family: "Spline Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    flex: 1;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 10px;
+}
+
+.Remove {
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #042940;
+}
+
+.Remove:hover {
+    background-color: transparent; 
+    color: #D92525;
+}
+
+.SetComplete {
+    color: #042940;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.SetComplete:hover {
+    background-color: rgba(255, 255, 255, 0.0);
+    color: #0b8800; 
+}
+
+.Content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 500px; 
+    min-height: 60px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+.Buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px; 
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
