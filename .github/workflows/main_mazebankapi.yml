@@ -19,7 +19,7 @@ jobs:
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '6.0.x'
+          dotnet-version: '3.1'
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
@@ -53,4 +53,4 @@ jobs:
           app-name: 'MazeBankApi'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_01E80A6C81D443328B2B6FD2EEB9477F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_216678F641474691A0738199AAC0F8D8 }}
